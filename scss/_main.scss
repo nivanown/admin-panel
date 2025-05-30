@@ -959,6 +959,24 @@
 	width: 100%;
 	border-collapse: separate;
   border-spacing: 0;
+  &_changed {
+  	th {
+  		&:first-child {
+  			width: 66px;
+  			}
+  		&:last-child {
+  			width: 94px;
+  			}
+  		}
+  	td {
+  		&:first-child {
+  			width: 66px;
+  			}
+  		&:last-child {
+  			width: 94px;
+  			}
+  		}
+  	}
 	thead {
 		tr {
 			th {
@@ -979,6 +997,13 @@
 				&:last-child {
 					border-right: 1px solid var(--primary-border-color);
 					border-radius: 0 8px 8px 0;
+					}
+				img {
+					position: relative;
+					display: inline;
+					margin: 0 0 0 4px;
+					width: 12px;
+					top: 2px;
 					}
 				}
 			}
@@ -1067,10 +1092,19 @@
 		line-height: 20px
 		}
 	&__link {
+		position: relative;
+		margin: 0 20px;
 		color: var(--eleven-text-color);
 		font-size: 14px;
 		line-height: 16px;
 		border-bottom: 1px solid;
+		img {
+			position: absolute;
+			display: inline;
+			width: 12px;
+			top: 4px;
+			right: -20px;
+			}
 		}
 	&__review {
 		max-width: 465px;
@@ -1139,6 +1173,39 @@
 		display: block;
 		font-size: 14px;
 		line-height: 20px;
+		}
+	&__title {
+		display: block;
+		font-size: 14px;
+		line-height: 20px;
+		}
+	&__delete {
+		position: relative;
+		display: inline-flex;
+		width: 32px;
+		height: 32px;
+		vertical-align: top;
+		font-size: 0;
+		line-height: 0;
+		background: var(--tertiary-btn-color);
+		border-radius: 8px;
+		cursor: pointer;
+		transition: .5s opacity;
+		&:before {
+			position: absolute;
+			display: block;
+			width: 16px;
+			height: 16px;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			background: url(../img/icons/basket.svg) center no-repeat;
+			background-size: 100%;
+			content: "";
+			}
+		&:hover {
+			opacity: 0.8;
+			}
 		}
 	}
 
@@ -1680,6 +1747,11 @@
 	align-items: center;
 	gap: 0 30px;
 	margin: 0 0 48px;
+	&_border-bottom {
+		margin: 0 0 33px;
+		padding: 0 0 48px;
+		border-bottom: 1px solid var(--primary-border-color);
+		}
 	.title {
 		margin: 0;
 		}
