@@ -1975,6 +1975,18 @@ textarea::-webkit-input-placeholder {
   border-collapse: separate;
   border-spacing: 0;
 }
+.table_changed th:first-child {
+  width: 66px;
+}
+.table_changed th:last-child {
+  width: 94px;
+}
+.table_changed td:first-child {
+  width: 66px;
+}
+.table_changed td:last-child {
+  width: 94px;
+}
 .table thead tr th {
   padding: 8px 23px;
   color: var(--secondary-text-color);
@@ -1994,6 +2006,13 @@ textarea::-webkit-input-placeholder {
 .table thead tr th:last-child {
   border-right: 1px solid var(--primary-border-color);
   border-radius: 0 8px 8px 0;
+}
+.table thead tr th img {
+  position: relative;
+  display: inline;
+  margin: 0 0 0 4px;
+  width: 12px;
+  top: 2px;
 }
 .table tbody td {
   padding: 18px 23px;
@@ -2077,10 +2096,19 @@ textarea::-webkit-input-placeholder {
   line-height: 20px;
 }
 .table__link {
+  position: relative;
+  margin: 0 20px;
   color: var(--eleven-text-color);
   font-size: 14px;
   line-height: 16px;
   border-bottom: 1px solid;
+}
+.table__link img {
+  position: absolute;
+  display: inline;
+  width: 12px;
+  top: 4px;
+  right: -20px;
 }
 .table__review {
   max-width: 465px;
@@ -2145,6 +2173,39 @@ textarea::-webkit-input-placeholder {
   display: block;
   font-size: 14px;
   line-height: 20px;
+}
+.table__title {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+}
+.table__delete {
+  position: relative;
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  vertical-align: top;
+  font-size: 0;
+  line-height: 0;
+  background: var(--tertiary-btn-color);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.5s opacity;
+}
+.table__delete:before {
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../img/icons/basket.svg) center no-repeat;
+  background-size: 100%;
+  content: "";
+}
+.table__delete:hover {
+  opacity: 0.8;
 }
 
 /* subscription-sticker */
@@ -2681,6 +2742,11 @@ textarea::-webkit-input-placeholder {
   align-items: center;
   gap: 0 30px;
   margin: 0 0 48px;
+}
+.top-panel_border-bottom {
+  margin: 0 0 33px;
+  padding: 0 0 48px;
+  border-bottom: 1px solid var(--primary-border-color);
 }
 .top-panel .title {
   margin: 0;
