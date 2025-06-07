@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GiG</title>
+        <meta content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=0" name="viewport">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        
+        <link rel="stylesheet" href="../css/style.css" media="all">
+        <link rel="stylesheet" href="../css/swiper-bundle.min.css" media="all">
+        <link href="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.css" rel="stylesheet" />
+
+        <link href="../favicon.ico" rel="shortcut icon">
+    </head>
+    <body>  
+
+        <!-- wrapper Start -->
+        <div class="wrapper">
+
+            <!-- main Start -->
+            <main class="main">
+                
+                <!-- sidebar Start -->
+                <aside class="sidebar">
+                    <span class="close-btn">Close</span>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="../img/src/logo.svg" alt="Gig">
+                        </a>
+                    </div>
+                    <div class="sidebar-scroll">
+                        <div class="sidebar-scroll__viewport">
+                            <nav class="main-nav">
+                                <ul>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/search-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Search</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/bell-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Inbox</span>
+                                                <span class="main-nav__number color-red">12</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/home-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Home</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/settings-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Settings</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/plugin-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Plugins</span>
+                                                <span class="main-nav__number">3</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Analytics</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/analytics.svg" alt="icon">
+                                                        <span class="main-nav__text">Audience</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/projects.svg" alt="icon">
+                                                        <span class="main-nav__text">Projects</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/financials.svg" alt="icon">
+                                                        <span class="main-nav__text">Financials</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Management</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <span class="main-nav__item-in down-arrow">
+                                                    <img class="main-nav__icon" src="../img/icons/users.svg" alt="icon">
+                                                    <span class="main-nav__text">Users</span>
+                                                </span>
+                                                <div class="main-nav__dropdown">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">
+                                                                <span class="main-nav__dropdown-item">
+                                                                    <img src="../img/icons/user.svg" alt="icon">
+                                                                    <span>Buyers</span>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <span class="main-nav__dropdown-item">
+                                                                    <img src="../img/icons/user.svg" alt="icon">
+                                                                    <span>Freelancers</span>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/orders.svg" alt="icon">
+                                                        <span class="main-nav__text">Orders</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/requests.svg" alt="icon">
+                                                        <span class="main-nav__text">Requests</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/transactions.svg" alt="icon">
+                                                        <span class="main-nav__text">Transactions</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/refunds.svg" alt="icon">
+                                                        <span class="main-nav__text">Refunds</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item active">
+                                        <span class="main-nav__small-text">Communication</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/announcements.svg" alt="icon">
+                                                        <span class="main-nav__text">Announcements</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/communication.svg" alt="icon">
+                                                        <span class="main-nav__text">User communication</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item active">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/content.svg" alt="icon">
+                                                    <span class="main-nav__text">Content</span>
+                                                </span>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/support-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Support</span>
+                                                        <span class="main-nav__number">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/disputes-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Disputes</span>
+                                                        <span class="main-nav__number">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/reports-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Reports</span>
+                                                        <span class="main-nav__number color-red">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">System</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">General</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Variables</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Freelancer</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Gig</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Support</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Languages</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Mail server</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="sidebar-scroll__track">
+                                <div class="sidebar-scroll__thumb"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-panel">
+                        <div class="user-panel__img">
+                            <a href="#">
+                                <img src="../img/src/user-img-sm.jpg" alt="user">
+                            </a>
+                        </div>
+                        <div class="user-panel__description">
+                            <span class="user-panel__name">
+                                <a href="#">Vladislav Topals</a>
+                            </span>
+                            <a href="#" class="user-panel__logout">Logout</a>
+                        </div>
+                    </div>
+                </aside>
+                <!-- Sidebar End -->
+
+                <!-- main Start -->
+                <section class="main-content">
+                    <div class="main-content__top-panel">
+                        <div class="main-content__top-panel-left-col">
+                            <span class="menu-btn">Open</span>
+                            <nav class="bread-crumbs">
+                                <ul>
+                                    <li class="bread-crumbs__item">
+                                        <a href="#">
+                                            <span class="bread-crumbs__item-in">
+                                                <img class="bread-crumbs__icon" src="../img/icons/message.svg" alt="icon">
+                                                <span class="bread-crumbs__text">Communication</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="bread-crumbs__item">
+                                        <a href="#">
+                                            <span class="bread-crumbs__item-in">
+                                                <img class="bread-crumbs__icon" src="../img/icons/content.svg" alt="icon">
+                                                <span class="bread-crumbs__text">Content</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="bread-crumbs__item active">
+                                        <span class="bread-crumbs__item-in">
+                                            <img class="bread-crumbs__icon" src="../img/icons/content.svg" alt="icon">
+                                            <span class="bread-crumbs__text">Success stories</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="main-content__top-panel-right-col">
+                            <a href="#" class="btn btn_color-transparent"><img src="../img/icons/add-b.svg" alt="icon">Add new article</a>
+                        </div>
+                    </div>
+                    <div class="content-wrap content-wrap_size-small">
+                        <h1 class="title title_border-bottom"><img src="../img/icons/content.svg" alt="icon">Success stories</h1>
+                        <div class="content-form">
+                            <div class="content-form__item">
+                                <label for="category">Select category *</label>
+                                <div class="select select_gray-color">
+                                    <input id="category" type="text">
+                                    <span class="select__placeholder-text">Select</span>
+                                    <span class="select__text"></span>
+                                    <div class="select__dropdown">
+                                        <div class="vertical-scroll swiper">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide">
+                                                    <ul>
+                                                        <li>Category 1</li>
+                                                        <li>Category 3</li>
+                                                        <li>Category 3</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-scrollbar"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="form-text">Choose the category of the article recipients</span>
+                            </div>
+                            <div class="content-form__item">
+                                <label for="add-title">Add title *</label>
+                                <input class="input input_gray-color" type="text" placeholder="Placeholder" max="70">
+                                <span id="add-title" class="form-text">70 symbols max</span>
+                            </div>
+                            <div class="content-form__item">
+                                <ul class="content-form__list">
+                                    <li>
+                                        <label for="specialisation">Specialisation</label>
+                                        <input class="input input_gray-color" type="text" placeholder="Placeholder" max="40">
+                                        <span id="specialisation" class="form-text">40 symbols max</span>
+                                    </li>
+                                    <li>
+                                        <label for="country">City, Country</label>
+                                        <input class="input input_gray-color" type="text" placeholder="Placeholder" max="40">
+                                        <span id="country" class="form-text">40 symbols max</span>
+                                    </li>
+                                    <li>
+                                        <label for="sold">Sold gigs</label>
+                                        <input class="input input_gray-color" type="text" placeholder="Placeholder" max="6">
+                                        <span id="sold" class="form-text">6 symbols max</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="content-form__item">
+                                <label>Add cover image *</label>
+                                <div class="image-file-field">
+                                    <span class="image-file-field__text">Up to 3 MB. Preferred dimension (1880 : 920)</span>
+                                    <div class="image-file">
+                                        <input id="image-file" type="file">
+                                        <label for="image-file" class="image-file__btn"><img src="../img/icons/add-b.svg" alt="icon">Add image</label>
+                                        <div class="image-file__col">
+                                            <span class="image-file__text"></span>
+                                            <span class="image-file__close">Удалить</span>
+                                        </div>
+                                        <span class="image-file__error">Invalid file. Only JPG, PNG, SVG up to 3MB allowed.</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-form__item border-bottom-none">
+                                <div class="content-form__top-panel">
+                                    <label for="add-text">Add text</label>
+                                    <div class="link-panel">
+                                        <button class="text-btn  text-btn_color-green">Save</button>
+                                    </div>
+                                </div>
+                                <textarea id="add-text" class="textarea textarea_gray-color">My contacts enables you to keep in touch with Fiverr users you have interacted with in the past. Your contact lists display the key interactions between you and your contact, the number of completed orders, the amount spent, when the last order was made, and a link to your Inbox conversation.</textarea>
+                            </div>
+                            <div class="content-form__item border-bottom-none">
+                                <div class="content-form__top-panel">
+                                    <label for="subtitle">Subtitle</label>
+                                    <div class="link-panel">
+                                        <button class="text-btn text-btn_color-red">Delete</button>
+                                        <button class="text-btn  text-btn_color-blue">Edit</button>
+                                    </div>
+                                </div>
+                                <textarea id="subtitle" class="textarea textarea_gray-color textarea_size-small" max="120">My contacts enables you to keep in touch with Fiverr users you have interacted with in the past. Your contact lists display</textarea>
+                                <span id="add-title" class="form-text">120 symbols max</span>
+                            </div>
+                            <div class="content-form__item border-bottom-none">
+                                <label>Add content</label>
+                                <ul class="content-form__btns-list">
+                                    <li>
+                                        <span class="btn btn_color-transparent"><img src="../img/icons/image.svg" alt="icon">Add image</span>
+                                    </li>
+                                    <li>
+                                        <span class="btn btn_color-transparent"><img src="../img/icons/subtitle.svg" alt="icon">Add subtitle</span>
+                                    </li>
+                                    <li>
+                                        <span class="btn btn_color-transparent"><img src="../img/icons/text.svg" alt="icon">Add text</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- main End -->
+
+                <!-- mobile-overlay Start -->
+                <div class="mobile-overlay"></div>
+                <!-- mobile-overlay end -->
+
+            </main>
+            <!-- main end -->
+
+        </div>   
+        <!-- wrapper end -->
+
+        <!-- Plugin scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="../js/swiper-bundle.min.js"></script>
+        <script src="../js/custom-scroll.js"></script>
+
+        <!-- Scripts -->
+        <script src="../js/scripts.js"></script>
+
+    </body>
+
+</html>     

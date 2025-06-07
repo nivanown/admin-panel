@@ -1,0 +1,2210 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>GiG</title>
+        <meta content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=0" name="viewport">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+        <link rel="stylesheet" href="../css/style.css" media="all">
+        <link rel="stylesheet" href="../css/swiper-bundle.min.css" media="all">
+        <link href="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.css" rel="stylesheet" />
+
+        <link rel="icon" href="../favicon.ico">
+    </head>
+    <body>
+
+        <!-- wrapper Start -->
+        <div class="wrapper">
+
+            <!-- sidebar Start -->
+            <aside class="sidebar">
+                <span class="close-btn">Close</span>
+                <div class="logo">
+                    <a href="#">
+                        <img src="../img/src/logo.svg" alt="Gig">
+                    </a>
+                </div>
+                <div class="sidebar-scroll">
+                    <div class="sidebar-scroll__viewport">
+                        <nav class="main-nav">
+                            <ul>
+                                <li class="main-nav__item">
+                                    <a href="#">
+                                        <span class="main-nav__item-in">
+                                            <img class="main-nav__icon" src="../img/icons/search-icon.svg" alt="icon">
+                                            <span class="main-nav__text">Search</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="main-nav__item">
+                                    <a href="#">
+                                        <span class="main-nav__item-in">
+                                            <img class="main-nav__icon" src="../img/icons/bell-icon.svg" alt="icon">
+                                            <span class="main-nav__text">Inbox</span>
+                                            <span class="main-nav__number color-red">12</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="main-nav__item">
+                                    <a href="#">
+                                        <span class="main-nav__item-in">
+                                            <img class="main-nav__icon" src="../img/icons/home-icon.svg" alt="icon">
+                                            <span class="main-nav__text">Home</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="main-nav__item">
+                                    <a href="#">
+                                        <span class="main-nav__item-in">
+                                            <img class="main-nav__icon" src="../img/icons/settings-icon.svg" alt="icon">
+                                            <span class="main-nav__text">Settings</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="main-nav__item">
+                                    <a href="#">
+                                        <span class="main-nav__item-in">
+                                            <img class="main-nav__icon" src="../img/icons/plugin-icon.svg" alt="icon">
+                                            <span class="main-nav__text">Plugins</span>
+                                            <span class="main-nav__number">3</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="main-nav__item">
+                                    <span class="main-nav__small-text">Analytics</span>
+                                    <ul class="main-nav__internal-list">
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/analytics.svg" alt="icon">
+                                                    <span class="main-nav__text">Audience</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/projects.svg" alt="icon">
+                                                    <span class="main-nav__text">Projects</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/financials.svg" alt="icon">
+                                                    <span class="main-nav__text">Financials</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="main-nav__item active">
+                                    <span class="main-nav__small-text">Management</span>
+                                    <ul class="main-nav__internal-list">
+                                        <li class="main-nav__internal-list-item active">
+                                            <span class="main-nav__item-in down-arrow">
+                                                <img class="main-nav__icon" src="../img/icons/users.svg" alt="icon">
+                                                <span class="main-nav__text">Users</span>
+                                            </span>
+                                            <div class="main-nav__dropdown">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span class="main-nav__dropdown-item">
+                                                                <img src="../img/icons/user.svg" alt="icon">
+                                                                <span>Buyers</span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span class="main-nav__dropdown-item">
+                                                                <img src="../img/icons/user.svg" alt="icon">
+                                                                <span>Freelancers</span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/orders.svg" alt="icon">
+                                                    <span class="main-nav__text">Orders</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/requests.svg" alt="icon">
+                                                    <span class="main-nav__text">Requests</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/transactions.svg" alt="icon">
+                                                    <span class="main-nav__text">Transactions</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/refunds.svg" alt="icon">
+                                                    <span class="main-nav__text">Refunds</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="main-nav__item">
+                                    <span class="main-nav__small-text">Communication</span>
+                                    <ul class="main-nav__internal-list">
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/announcements.svg" alt="icon">
+                                                    <span class="main-nav__text">Announcements</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/communication.svg" alt="icon">
+                                                    <span class="main-nav__text">User communication</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/content-icon.svg" alt="icon">
+                                                    <span class="main-nav__text">Content</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/support-icon.svg" alt="icon">
+                                                    <span class="main-nav__text">Support</span>
+                                                    <span class="main-nav__number">12</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/disputes-icon.svg" alt="icon">
+                                                    <span class="main-nav__text">Disputes</span>
+                                                    <span class="main-nav__number">12</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/reports-icon.svg" alt="icon">
+                                                    <span class="main-nav__text">Reports</span>
+                                                    <span class="main-nav__number color-red">12</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="main-nav__item">
+                                    <span class="main-nav__small-text">System</span>
+                                    <ul class="main-nav__internal-list">
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                    <span class="main-nav__text">General</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                    <span class="main-nav__text">Variables</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                    <span class="main-nav__text">Freelancer</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                    <span class="main-nav__text">Gig</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                    <span class="main-nav__text">Support</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                    <span class="main-nav__text">Languages</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="main-nav__internal-list-item">
+                                            <a href="#">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                    <span class="main-nav__text">Mail server</span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="sidebar-scroll__track">
+                        <div class="sidebar-scroll__thumb"></div>
+                    </div>
+                </div>
+                <div class="user-panel">
+                    <div class="user-panel__img">
+                        <a href="#">
+                            <img src="../img/src/user-img-sm.jpg" alt="user">
+                        </a>
+                    </div>
+                    <div class="user-panel__description">
+                        <span class="user-panel__name">
+                            <a href="#">Vladislav Topals</a>
+                        </span>
+                        <a href="#" class="user-panel__logout">Logout</a>
+                    </div>
+                </div>
+            </aside>
+            <!-- Sidebar End -->
+
+            <!-- main Start -->
+            <main class="main">
+                <section class="main-content">
+                    <div class="main-content__top-panel">
+                        <div class="main-content__top-panel-left-col">
+                            <span class="menu-btn">Open</span>
+                            <nav class="bread-crumbs">
+                                <ul>
+                                    <li class="bread-crumbs__item">
+                                        <a href="#">
+                                            <span class="bread-crumbs__item-in">
+                                                <img class="bread-crumbs__icon" src="../img/icons/users.svg" alt="icon">
+                                                <span class="bread-crumbs__text">Users</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="bread-crumbs__item active">
+                                        <span class="bread-crumbs__item-in">
+                                            <span class="bread-crumbs__text">Freelancer</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <div class="profile__dec"></div>
+                        <div class="profile__wrap">
+                            <div class="profile-panel">
+                                <div class="profile-panel__user-photo">
+                                    <img src="../img/src/user-photo.jpg" alt="img">
+                                </div>
+                                <div class="profile-panel__description">
+                                    <div class="profile-panel__user-info">
+                                        <div class="profile-panel__name-col">
+                                            <span class="profile-panel__name">Olivia Rhye</span>
+                                            <span class="profile-panel__status">Premium</span>
+                                        </div>
+                                        <div class="profile-panel__user-statistics">
+                                            <div class="rating">
+                                                <div class="rating__icon">
+                                                    <img src="../img/icons/star.svg" alt="icon">
+                                                </div>
+                                                <span class="rating__number">5.0 <span>(425)</span></span>
+                                            </div>
+                                            <div class="user-status">
+                                                <div class="user-status__icon">
+                                                    <img src="../img/icons/status.svg" alt="icon">
+                                                </div>
+                                                <span class="user-status__text">Advanced</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="btn btn_color-transparent">Actions</a>
+                                </div>
+                            </div>
+                            <div class="user-price">
+                                <div class="user-price__item">
+                                    <div class="user-price__col">
+                                        <span class="user-price__title">Available earnings</span>
+                                        <span class="user-price__number">$25.654</span>
+                                        <span class="user-price__text">
+                                            <img class="user-price__icon" src="../img/icons/wallet.svg" alt="icon">
+                                            <span>Get paid</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="user-price__item">
+                                    <div class="user-price__col">
+                                        <span class="user-price__title">Pending</span>
+                                        <span class="user-price__number">$255</span>
+                                        <span class="user-price__text">
+                                            <span>8 payments</span>
+                                        </span>
+                                    </div>
+                                    <div class="user-price__separator"></div>
+                                    <div class="user-price__col">
+                                        <span class="user-price__title">Active orders</span>
+                                        <span class="user-price__number">$7.550</span>
+                                        <span class="user-price__text">
+                                            <span>6 payments</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="user-price__item">
+                                    <div class="user-price__col">
+                                        <span class="user-price__title">Earnings</span>
+                                        <span class="user-price__number">$255</span>
+                                        <span class="user-price__text">
+                                            <span>Earning this year</span>
+                                        </span>
+                                    </div>
+                                    <div class="user-price__separator"></div>
+                                    <div class="user-price__col">
+                                        <span class="user-price__title">Expenses</span>
+                                        <span class="user-price__number">$7.550</span>
+                                        <span class="user-price__text">
+                                            <span>Expenses this year</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs">
+                                <nav class="tabs__nav">
+                                    <ul>
+                                        <li class="active">About</li>
+                                        <li>Orders</li>
+                                        <li>Gigs</li>
+                                        <li>Consultations</li>
+                                        <li>Portfolio</li>
+                                        <li>Reviews</li>
+                                        <li>Verification</li>
+                                    </ul>
+                                </nav>
+                                <div class="tabs__content">
+                                    <div class="tabs__item active">
+                                        <div class="profile-form">
+                                            <div class="profile-form__item">
+                                                <div class="profile-form__left-col">
+                                                    <h3 class="profile-form__title">Personal info</h3>
+                                                    <p class="profile-form__text">Update your photo and personal details.</p>
+                                                </div>
+                                                <div class="profile-form__right-col">
+                                                    <form>
+                                                        <div class="profile-form__fields">
+                                                            <div class="profile-form__fields-item">
+                                                                <div class="fields-list">
+                                                                    <div class="fields-list__item">
+                                                                        <label for="first-name">First name</label>
+                                                                        <input id="first-name" type="text" value="Oliva">
+                                                                    </div>
+                                                                    <div class="fields-list__item">
+                                                                        <label for="last-name">Last name</label>
+                                                                        <input id="last-name" type="text" value="Rhye">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label for="email">Email (verified)</label>
+                                                                <div class="email-input">
+                                                                    <input id="email" type="email" value="olivia@untitledui.com">
+                                                                </div>
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label id="phone">Phone (verified)</label>
+                                                                <div class="phone-input">
+                                                                    <input id="phone" type="tel" value="olivia@untitledui.com">
+                                                                </div>
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label>Avatar</label>
+                                                                <div class="avatar-col">
+                                                                    <div class="avatar-list">
+                                                                        <div class="avatar-list__item">
+                                                                            <div class="avatar-v1">
+                                                                                <img src="../img/src/user-photo.jpg" alt="img">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="avatar-list__item">
+                                                                            <div class="avatar-v2">
+                                                                                <img src="../img/src/user-photo.jpg" alt="img">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="avatar-list__item">
+                                                                            <div class="avatar-v3">
+                                                                                <img src="../img/src/user-photo.jpg" alt="img">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="avatar-list__item">
+                                                                            <div class="avatar-v4">
+                                                                                <img src="../img/src/user-photo.jpg" alt="img">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="btn btn_color-transparent">Delete</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label for="country">Country</label>
+                                                                <div class="select">
+                                                                    <input id="country" type="text" value="United States">
+                                                                    <span class="select__placeholder-text">Select a country</span>
+                                                                    <span class="select__text"></span>
+                                                                    <div class="select__dropdown">
+                                                                        <div class="vertical-scroll swiper">
+                                                                            <div class="swiper-wrapper">
+                                                                                <div class="swiper-slide">
+                                                                                    <ul>
+                                                                                        <li class="active">
+                                                                                            <img src="../img/icons/usa-flag.svg" alt="icon">United States
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <img src="../img/icons/russia-flag.svg" alt="icon">Russia
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <img src="../img/icons/england-flag.svg" alt="icon">England
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="swiper-scrollbar"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label for="occupation">Occupation</label>
+                                                                <div class="input-field">
+                                                                    <input id="occupation" type="text" required="required" maxlength="275" value="UX/UI Designer, CRO, SaaS, E-commerce, Apps, Low-code Web Development">
+                                                                    <span class="input-field__quantity"><span>275</span> characters left</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label for="bio">Bio</label>
+                                                                <div class="textarea-field">
+                                                                    <textarea id="bio" required="required" maxlength="1000">I am Google Ads (Adwords) Specialist having 6+ Years of Experience. I can help to set up new campaigns from scatch or optimize the existing ones to improve the performance. My specialties are Google Ads for local lead generation businesses like Plumbing, Roofing, Cleaning, HVAC, Dentist , Gyms or Personal Training, Moving & Packing, Landscaping, Auto Detailing or Services, Pest or Mold Removal and more. I have handled small business to big clients like Yamaha & Yokohama from daily budget of $10 to $10,000 per day. I understand my Client's Goals & Generate Desired Results - Leads & Calls.</textarea>
+                                                                    <span class="textarea-field__quantity"><span>500</span> characters left</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label>Bio</label>
+                                                                <div class="tags">
+                                                                    <ul class="tags-list">
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                        <li>
+                                                                            <span class="tag">Label<span class="tag__delete">Удалить</span></span>
+                                                                        </li>
+                                                                    </ul>
+                                                                    <span class="profile-form__quantity">30/30</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="profile-form__btn-panel">
+                                                            <button class="btn" type="submit">Save changes</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="profile-form__item">
+                                                <div class="profile-form__left-col">
+                                                    <h3 class="profile-form__title">Social media</h3>
+                                                    <p class="profile-form__text">Connected social media</p>
+                                                </div>
+                                                <div class="profile-form__right-col">
+                                                    <form>
+                                                        <div class="profile-form__fields">
+                                                            <div class="profile-form__fields-item">
+                                                                <label for="website">Instagram</label>
+                                                                <div class="input-group">
+                                                                    <span class="input-group__prefix">instagram.com/</span>
+                                                                    <input type="text" id="website" name="website" value="olivia_3983">
+                                                                </div>
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label for="website">LinkedIn</label>
+                                                                <div class="input-group">
+                                                                    <span class="input-group__prefix">linkedin.com/</span>
+                                                                    <input type="text" id="website" name="website" value="weewr">
+                                                                </div>
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label for="website">Website</label>
+                                                                <div class="input-group">
+                                                                    <span class="input-group__prefix">http://</span>
+                                                                    <input type="text" id="website" name="website" value="portfolio.com">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="profile-form__btn-panel">
+                                                            <button class="btn" type="submit">Save changes</button>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabs__item">
+                                        <div class="table-settings-panel">
+                                            <div class="table-settings-panel__col">
+                                                <span class="table-settings-panel__title">
+                                                    <img src="../img/icons/orders-i.svg" alt="icon">
+                                                    <span>Orders</span>
+                                                </span>
+                                            </div>
+                                            <div class="table-settings-panel__col">
+                                                <div class="sort">
+                                                    <span class="btn btn_color-transparent">
+                                                        <img src="../img/icons/arrows.svg" alt="icon">
+                                                    </span>
+                                                    <div class="sort__dropdown">
+                                                        <ul class="sort__list">
+                                                            <li>
+                                                                <span>Item 1</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 2</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 3</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 4</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 5</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Registration date</span>
+                                                                <div class="sort__dropdown-sub">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <span>Ascending</span>
+                                                                            <img src="../img/icons/sort-top-arrow.svg" alt="icon">
+                                                                        </li>
+                                                                        <li>
+                                                                            <span>Descending</span>
+                                                                            <img src="../img/icons/sort-down-arrow.svg" alt="icon">
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 6</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 7</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="filter">
+                                                    <span class="btn btn_color-transparent">
+                                                        <img src="../img/icons/lines.svg" alt="icon">
+                                                    </span>
+                                                    <div class="filter__dropdown">
+                                                        <ul class="filter__list">
+                                                            <li>
+                                                                <input id="filter-documents" type="checkbox" name="filter">
+                                                                <label for="filter-documents">Documents</label>
+                                                            </li>
+                                                            <li>
+                                                                <input id="filter-registration" type="checkbox" name="filter">
+                                                                <label for="filter-registration">Registration date</label>
+                                                            </li>
+                                                            <li>
+                                                                <input id="filter-status" type="checkbox" name="filter">
+                                                                <label for="filter-status">Status</label>
+                                                            </li>
+                                                            <li>
+                                                                <input id="filter-date" type="checkbox" name="filter">
+                                                                <label for="filter-date">Date</label>
+                                                            </li>
+                                                        </ul>
+                                                        <span class="filter__clear">Clear</span>
+                                                    </div>
+                                                </div>
+                                                <div class="search-form">
+                                                    <form>
+                                                        <input type="text" placeholder="Search">
+                                                        <button type="submit" class="search-form__btn">Поиск</button>
+                                                    </form>
+                                                </div>
+                                                <a href="#" class="btn btn_color-transparent"><img src="../img/icons/export-i.svg" alt="icon">Export csv</a>
+                                            </div>
+                                        </div>
+                                        <div class="custom-scroll">
+                                            <div class="custom-scroll__viewport">
+                                                <div class="custom-scroll__content">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </th>
+                                                                <th>ID</th>
+                                                                <th>Buyer</th>
+                                                                <th>Registration date</th>
+                                                                <th>Status</th>
+                                                                <th>Due date</th>
+                                                                <th>Total</th>
+                                                                <th class="text-center">Review</th>
+                                                                <th class="text-center">Actions</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">#32879837</span>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="table__user">
+                                                                        <div class="table__user-img">
+                                                                            <img src="../img/src/table-user.jpg" alt="img">
+                                                                        </div>
+                                                                        <span class="table__user-name">Vlad Topal</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="status-sticker progress">
+                                                                        <img src="../img/icons/progress-i.svg" alt="icon">
+                                                                        <span class="status-sticker__text">In Progress</span>
+                                                                    </span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center"></td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">01</span>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="table__user">
+                                                                        <div class="table__user-img">
+                                                                            <img src="../img/src/table-user.jpg" alt="img">
+                                                                        </div>
+                                                                        <span class="table__user-name">Vlad Topal</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="status-sticker completed">
+                                                                        <img src="../img/icons/checks-i.svg" alt="icon">
+                                                                        <span class="status-sticker__text">Completed</span>
+                                                                    </span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">01</span>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="table__user">
+                                                                        <div class="table__user-img">
+                                                                            <img src="../img/src/table-user.jpg" alt="img">
+                                                                        </div>
+                                                                        <span class="table__user-name">Vlad Topal</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="status-sticker completed">
+                                                                        <img src="../img/icons/checks-i.svg" alt="icon">
+                                                                        <span class="status-sticker__text">Completed</span>
+                                                                    </span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">01</span>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="table__user">
+                                                                        <div class="table__user-img">
+                                                                            <img src="../img/src/table-user.jpg" alt="img">
+                                                                        </div>
+                                                                        <span class="table__user-name">Vlad Topal</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="status-sticker completed">
+                                                                        <img src="../img/icons/checks-i.svg" alt="icon">
+                                                                        <span class="status-sticker__text">Completed</span>
+                                                                    </span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">01</span>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="table__user">
+                                                                        <div class="table__user-img">
+                                                                            <img src="../img/src/table-user.jpg" alt="img">
+                                                                        </div>
+                                                                        <span class="table__user-name">Vlad Topal</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="status-sticker completed">
+                                                                        <img src="../img/icons/checks-i.svg" alt="icon">
+                                                                        <span class="status-sticker__text">Completed</span>
+                                                                    </span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">01</span>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="table__user">
+                                                                        <div class="table__user-img">
+                                                                            <img src="../img/src/table-user.jpg" alt="img">
+                                                                        </div>
+                                                                        <span class="table__user-name">Vlad Topal</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="status-sticker completed">
+                                                                        <img src="../img/icons/checks-i.svg" alt="icon">
+                                                                        <span class="status-sticker__text">Completed</span>
+                                                                    </span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">01</span>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="table__user">
+                                                                        <div class="table__user-img">
+                                                                            <img src="../img/src/table-user.jpg" alt="img">
+                                                                        </div>
+                                                                        <span class="table__user-name">Vlad Topal</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="status-sticker completed">
+                                                                        <img src="../img/icons/checks-i.svg" alt="icon">
+                                                                        <span class="status-sticker__text">Completed</span>
+                                                                    </span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">01</span>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="table__user">
+                                                                        <div class="table__user-img">
+                                                                            <img src="../img/src/table-user.jpg" alt="img">
+                                                                        </div>
+                                                                        <span class="table__user-name">Vlad Topal</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="status-sticker completed">
+                                                                        <img src="../img/icons/checks-i.svg" alt="icon">
+                                                                        <span class="status-sticker__text">Completed</span>
+                                                                    </span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__date">15.12.2024</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="custom-scroll__track">
+                                                <div class="custom-scroll__thumb"></div>
+                                            </div>
+                                        </div>
+                                        <div class="page-nav">
+                                            <a href="#" class="btn btn_color-transparent disabled">Previous</a>
+                                            <span class="page-nav__number">Page <span>1</span> of <span>10</span></span>
+                                            <a href="#" class="btn btn_color-transparent">Next</a>
+                                        </div>
+                                    </div>
+                                    <div class="tabs__item">
+                                        <div class="table-settings-panel">
+                                            <div class="table-settings-panel__col">
+                                                <span class="table-settings-panel__title">
+                                                    <img src="../img/icons/gigs-i.svg" alt="icon">
+                                                    <span>Gigs</span>
+                                                </span>
+                                            </div>
+                                            <div class="table-settings-panel__col">
+                                                <div class="sort">
+                                                    <span class="btn btn_color-transparent">
+                                                        <img src="../img/icons/arrows.svg" alt="icon">
+                                                    </span>
+                                                    <div class="sort__dropdown">
+                                                        <ul class="sort__list">
+                                                            <li>
+                                                                <span>Item 1</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 2</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 3</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 4</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 5</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Registration date</span>
+                                                                <div class="sort__dropdown-sub">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <span>Ascending</span>
+                                                                            <img src="../img/icons/sort-top-arrow.svg" alt="icon">
+                                                                        </li>
+                                                                        <li>
+                                                                            <span>Descending</span>
+                                                                            <img src="../img/icons/sort-down-arrow.svg" alt="icon">
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 6</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 7</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="filter">
+                                                    <span class="btn btn_color-transparent">
+                                                        <img src="../img/icons/lines.svg" alt="icon">
+                                                    </span>
+                                                    <div class="filter__dropdown">
+                                                        <ul class="filter__list">
+                                                            <li>
+                                                                <input id="filter-documents" type="checkbox" name="filter">
+                                                                <label for="filter-documents">Documents</label>
+                                                            </li>
+                                                            <li>
+                                                                <input id="filter-registration" type="checkbox" name="filter">
+                                                                <label for="filter-registration">Registration date</label>
+                                                            </li>
+                                                            <li>
+                                                                <input id="filter-status" type="checkbox" name="filter">
+                                                                <label for="filter-status">Status</label>
+                                                            </li>
+                                                            <li>
+                                                                <input id="filter-date" type="checkbox" name="filter">
+                                                                <label for="filter-date">Date</label>
+                                                            </li>
+                                                        </ul>
+                                                        <span class="filter__clear">Clear</span>
+                                                    </div>
+                                                </div>
+                                                <div class="search-form">
+                                                    <form>
+                                                        <input type="text" placeholder="Search">
+                                                        <button type="submit" class="search-form__btn">Поиск</button>
+                                                    </form>
+                                                </div>
+                                                <a href="#" class="btn btn_color-transparent"><img src="../img/icons/export-i.svg" alt="icon">Export csv</a>
+                                            </div>
+                                        </div>
+                                        <div class="custom-scroll">
+                                            <div class="custom-scroll__viewport">
+                                                <div class="custom-scroll__content">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </th>
+                                                                <th>ID</th>
+                                                                <th>Title</th>
+                                                                <th>Description</th>
+                                                                <th>Duration</th>
+                                                                <th>Sales</th>
+                                                                <th>Total</th>
+                                                                <th class="text-center">Review</th>
+                                                                <th>Status</th>
+                                                                <th class="text-center">Actions</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">01</span>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__text">Daromad va xarajatlar toʻgʻrisida hisobot</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__text">Daromad va xarajatlar toʻgʻrisida hisobot</p>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__day">1 day</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__quantity">45</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center"></td>
+                                                                <td>
+                                                                    <span class="info-sticker active">Active</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">02</span>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__text">Daromad va xarajatlar toʻgʻrisida hisobot</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__text">Daromad va xarajatlar toʻgʻrisida hisobot</p>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__day">2 days</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__quantity">987</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="info-sticker attention">Attention</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">03</span>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__text">Daromad va xarajatlar toʻgʻrisida hisobot</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__text">Daromad va xarajatlar toʻgʻrisida hisobot</p>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__day">3 days</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__quantity">651</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="info-sticker active">Active</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="custom-scroll__track">
+                                                <div class="custom-scroll__thumb"></div>
+                                            </div>
+                                        </div>
+                                        <div class="page-nav">
+                                            <a href="#" class="btn btn_color-transparent disabled">Previous</a>
+                                            <span class="page-nav__number">Page <span>1</span> of <span>10</span></span>
+                                            <a href="#" class="btn btn_color-transparent">Next</a>
+                                        </div>
+                                    </div>
+                                    <div class="tabs__item">
+                                        <div class="table-settings-panel">
+                                            <div class="table-settings-panel__col">
+                                                <span class="table-settings-panel__title">
+                                                    <span>Consultations</span>
+                                                </span>
+                                            </div>
+                                            <div class="table-settings-panel__col">
+                                                <div class="sort">
+                                                    <span class="btn btn_color-transparent">
+                                                        <img src="../img/icons/arrows.svg" alt="icon">
+                                                    </span>
+                                                    <div class="sort__dropdown">
+                                                        <ul class="sort__list">
+                                                            <li>
+                                                                <span>Item 1</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 2</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 3</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 4</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 5</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Registration date</span>
+                                                                <div class="sort__dropdown-sub">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <span>Ascending</span>
+                                                                            <img src="../img/icons/sort-top-arrow.svg" alt="icon">
+                                                                        </li>
+                                                                        <li>
+                                                                            <span>Descending</span>
+                                                                            <img src="../img/icons/sort-down-arrow.svg" alt="icon">
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 6</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 7</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="filter">
+                                                    <span class="btn btn_color-transparent">
+                                                        <img src="../img/icons/lines.svg" alt="icon">
+                                                    </span>
+                                                    <div class="filter__dropdown">
+                                                        <ul class="filter__list">
+                                                            <li>
+                                                                <input id="filter-documents" type="checkbox" name="filter">
+                                                                <label for="filter-documents">Documents</label>
+                                                            </li>
+                                                            <li>
+                                                                <input id="filter-registration" type="checkbox" name="filter">
+                                                                <label for="filter-registration">Registration date</label>
+                                                            </li>
+                                                            <li>
+                                                                <input id="filter-status" type="checkbox" name="filter">
+                                                                <label for="filter-status">Status</label>
+                                                            </li>
+                                                            <li>
+                                                                <input id="filter-date" type="checkbox" name="filter">
+                                                                <label for="filter-date">Date</label>
+                                                            </li>
+                                                        </ul>
+                                                        <span class="filter__clear">Clear</span>
+                                                    </div>
+                                                </div>
+                                                <div class="search-form">
+                                                    <form>
+                                                        <input type="text" placeholder="Search">
+                                                        <button type="submit" class="search-form__btn">Поиск</button>
+                                                    </form>
+                                                </div>
+                                                <a href="#" class="btn btn_color-transparent"><img src="../img/icons/export-i.svg" alt="icon">Export csv</a>
+                                            </div>
+                                        </div>
+                                        <div class="custom-scroll">
+                                            <div class="custom-scroll__viewport">
+                                                <div class="custom-scroll__content">
+                                                    <table class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </th>
+                                                                <th>ID</th>
+                                                                <th>Title</th>
+                                                                <th>Description</th>
+                                                                <th>Duration</th>
+                                                                <th>Sales</th>
+                                                                <th>Total</th>
+                                                                <th class="text-center">Review</th>
+                                                                <th>Status</th>
+                                                                <th class="text-center">Actions</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">01</span>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__text">Daromad va xarajatlar toʻgʻrisida hisobot</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__text">Daromad va xarajatlar toʻgʻrisida hisobot</p>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__day">1 day</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__quantity">45</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center"></td>
+                                                                <td>
+                                                                    <span class="info-sticker active">Active</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">02</span>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__text">Daromad va xarajatlar toʻgʻrisida hisobot</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__text">Daromad va xarajatlar toʻgʻrisida hisobot</p>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__day">2 days</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__quantity">987</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="info-sticker attention">Attention</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">03</span>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__text">Daromad va xarajatlar toʻgʻrisida hisobot</p>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__text">Daromad va xarajatlar toʻgʻrisida hisobot</p>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__day">3 days</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__quantity">651</span>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="info-sticker active">Active</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="custom-scroll__track">
+                                                <div class="custom-scroll__thumb"></div>
+                                            </div>
+                                        </div>
+                                        <div class="page-nav">
+                                            <a href="#" class="btn btn_color-transparent disabled">Previous</a>
+                                            <span class="page-nav__number">Page <span>1</span> of <span>10</span></span>
+                                            <a href="#" class="btn btn_color-transparent">Next</a>
+                                        </div>
+                                    </div>
+                                    <div class="tabs__item">
+                                        <div class="portfolio">
+                                            <div class="portfolio__item">
+                                                <div class="portfolio__img">
+                                                    <a href="#">
+                                                        <img src="../img/src/portfolio-img.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="portfolio__description">
+                                                    <span class="portfolio__text">
+                                                        <a href="#">mishmash. E-commerce design for the ultimate product experience.</a>
+                                                    </span>
+                                                    <a href="#" class="portfolio__more">Подробнее</a>
+                                                </div>
+                                            </div>
+                                            <div class="portfolio__item">
+                                                <div class="portfolio__img">
+                                                    <a href="#">
+                                                        <img src="../img/src/portfolio-img.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="portfolio__description">
+                                                    <span class="portfolio__text">
+                                                        <a href="#">mishmash. E-commerce design for the ultimate product experience.</a>
+                                                    </span>
+                                                    <a href="#" class="portfolio__more">Подробнее</a>
+                                                </div>
+                                            </div>
+                                            <div class="portfolio__item">
+                                                <div class="portfolio__img">
+                                                    <a href="#">
+                                                        <img src="../img/src/portfolio-img.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="portfolio__description">
+                                                    <span class="portfolio__text">
+                                                        <a href="#">mishmash. E-commerce design for the ultimate product experience.</a>
+                                                    </span>
+                                                    <a href="#" class="portfolio__more">Подробнее</a>
+                                                </div>
+                                            </div>
+                                            <div class="portfolio__item">
+                                                <div class="portfolio__img">
+                                                    <a href="#">
+                                                        <img src="../img/src/portfolio-img.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="portfolio__description">
+                                                    <span class="portfolio__text">
+                                                        <a href="#">mishmash. E-commerce design for the ultimate product experience.</a>
+                                                    </span>
+                                                    <a href="#" class="portfolio__more">Подробнее</a>
+                                                </div>
+                                            </div>
+                                            <div class="portfolio__item">
+                                                <div class="portfolio__img">
+                                                    <a href="#">
+                                                        <img src="../img/src/portfolio-img.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="portfolio__description">
+                                                    <span class="portfolio__text">
+                                                        <a href="#">mishmash. E-commerce design for the ultimate product experience.</a>
+                                                    </span>
+                                                    <a href="#" class="portfolio__more">Подробнее</a>
+                                                </div>
+                                            </div>
+                                            <div class="portfolio__item">
+                                                <div class="portfolio__img">
+                                                    <a href="#">
+                                                        <img src="../img/src/portfolio-img.jpg" alt="img">
+                                                    </a>
+                                                </div>
+                                                <div class="portfolio__description">
+                                                    <span class="portfolio__text">
+                                                        <a href="#">mishmash. E-commerce design for the ultimate product experience.</a>
+                                                    </span>
+                                                    <a href="#" class="portfolio__more">Подробнее</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tabs__item">
+                                        <div class="table-settings-panel">
+                                            <div class="table-settings-panel__col">
+                                                <span class="table-settings-panel__title">
+                                                    <span>Reviews</span>
+                                                </span>
+                                            </div>
+                                            <div class="table-settings-panel__col">
+                                                <div class="sort">
+                                                    <span class="btn btn_color-transparent">
+                                                        <img src="../img/icons/arrows.svg" alt="icon">
+                                                    </span>
+                                                    <div class="sort__dropdown">
+                                                        <ul class="sort__list">
+                                                            <li>
+                                                                <span>Item 1</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 2</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 3</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 4</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 5</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Registration date</span>
+                                                                <div class="sort__dropdown-sub">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <span>Ascending</span>
+                                                                            <img src="../img/icons/sort-top-arrow.svg" alt="icon">
+                                                                        </li>
+                                                                        <li>
+                                                                            <span>Descending</span>
+                                                                            <img src="../img/icons/sort-down-arrow.svg" alt="icon">
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 6</span>
+                                                            </li>
+                                                            <li>
+                                                                <span>Item 7</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="filter">
+                                                    <span class="btn btn_color-transparent">
+                                                        <img src="../img/icons/lines.svg" alt="icon">
+                                                    </span>
+                                                    <div class="filter__dropdown">
+                                                        <ul class="filter__list">
+                                                            <li>
+                                                                <input id="filter-documents" type="checkbox" name="filter">
+                                                                <label for="filter-documents">Documents</label>
+                                                            </li>
+                                                            <li>
+                                                                <input id="filter-registration" type="checkbox" name="filter">
+                                                                <label for="filter-registration">Registration date</label>
+                                                            </li>
+                                                            <li>
+                                                                <input id="filter-status" type="checkbox" name="filter">
+                                                                <label for="filter-status">Status</label>
+                                                            </li>
+                                                            <li>
+                                                                <input id="filter-date" type="checkbox" name="filter">
+                                                                <label for="filter-date">Date</label>
+                                                            </li>
+                                                        </ul>
+                                                        <span class="filter__clear">Clear</span>
+                                                    </div>
+                                                </div>
+                                                <div class="search-form">
+                                                    <form>
+                                                        <input type="text" placeholder="Search">
+                                                        <button type="submit" class="search-form__btn">Поиск</button>
+                                                    </form>
+                                                </div>
+                                                <a href="#" class="btn btn_color-transparent"><img src="../img/icons/export-i.svg" alt="icon">Export csv</a>
+                                            </div>
+                                        </div>
+                                        <div class="custom-scroll">
+                                            <div class="custom-scroll__viewport">
+                                                <div class="custom-scroll__content">
+                                                    <table class="table table_text-top">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </th>
+                                                                <th>ID</th>
+                                                                <th>Buyer</th>
+                                                                <th>Gig</th>
+                                                                <th>Review</th>
+                                                                <th class="text-center">Total</th>
+                                                                <th class="text-center">Review</th>
+                                                                <th class="text-center">Actions</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">01</span>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="table__user">
+                                                                        <div class="table__user-img">
+                                                                            <img src="../img/src/table-user.jpg" alt="img">
+                                                                        </div>
+                                                                        <span class="table__user-name">Vlad Topal</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="#" class="table__link">“Gig title”</a>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__review">First, I want to start by saying Iv been doing my own Google Advertising and have worked with another team that has periodically optimized my leads since 2018. 3 days after a Google Ad revision is defiantly not enough time to allow the ad to learn and to see if it has become more optimized & profitable. However, my job was delivered yesterday and since have seen a higher concentration of highly motivated buyers and have already closed two deals and should have a number of referrals coming from my newest client. I don’t know if it is pure luck or if the new ad campaign truly is working far better than it had been previously. My optimization score has already dropped from 99.2% to 91.9% I’m guessing the score will fluctuate during the learning phase of the first 2 weeks as new info is gathered. I can say Iv done north of 30 deals a month with my current campaign and as of recent it was closer to 15. T</p>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="checkbox">
+                                                                        <input type="checkbox">
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <span class="table__id">01</span>
+                                                                </td>
+                                                                <td>
+                                                                    <div class="table__user">
+                                                                        <div class="table__user-img">
+                                                                            <img src="../img/src/table-user.jpg" alt="img">
+                                                                        </div>
+                                                                        <span class="table__user-name">Vlad Topal</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="#" class="table__link">“Gig title”</a>
+                                                                </td>
+                                                                <td>
+                                                                    <p class="table__review">First, I want to start by saying Iv been doing my own Google Advertising and have worked with another team that has periodically optimized my leads since 2018. 3 days after a Google Ad revision is defiantly not enough time to allow the ad to learn and to see if it has become more optimized & profitable. However, my job was delivered yesterday and since have seen a higher concentration of highly motivated buyers and have already closed two deals and should have a number of referrals coming from my newest client. I don’t know if it is pure luck or if the new ad campaign truly is working far better than it had been previously. My optimization score has already dropped from 99.2% to 91.9% I’m guessing the score will fluctuate during the learning phase of the first 2 weeks as new info is gathered. I can say Iv done north of 30 deals a month with my current campaign and as of recent it was closer to 15. T</p>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <span class="table__price">$452</span>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="rating">
+                                                                        <div class="rating__icon">
+                                                                            <img src="../img/icons/star.svg" alt="icon">
+                                                                        </div>
+                                                                        <span class="rating__number">4.5</span>
+                                                                    </div>
+                                                                </td>
+                                                                <td class="text-center">
+                                                                    <div class="actions">
+                                                                        <span class="actions__btn">Actions</span>
+                                                                        <div class="actions__dropdown">
+                                                                            <ul>
+                                                                                <li>Login as “name”</li>
+                                                                                <li>Block</li>
+                                                                                <li>Restrict</li>
+                                                                                <li>Change balance</li>
+                                                                                <li>Verification</li>
+                                                                                <li>Registration date</li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                            <div class="custom-scroll__track">
+                                                <div class="custom-scroll__thumb"></div>
+                                            </div>
+                                        </div>
+                                        <div class="page-nav">
+                                            <a href="#" class="btn btn_color-transparent disabled">Previous</a>
+                                            <span class="page-nav__number">Page <span>1</span> of <span>10</span></span>
+                                            <a href="#" class="btn btn_color-transparent">Next</a>
+                                        </div>
+                                    </div>
+                                    <div class="tabs__item">
+                                        <div class="profile-form">
+                                            <div class="profile-form__item">
+                                                <div class="profile-form__left-col">
+                                                    <h3 class="profile-form__title">Document photo</h3>
+                                                    <p class="profile-form__text">Government issued document</p>
+                                                </div>
+                                                <div class="profile-form__right-col">
+                                                    <form>
+                                                        <div class="profile-form__fields">
+                                                            <div class="profile-form__fields-item">
+                                                                <label for="country-2">Document issuer</label>
+                                                                <div class="select">
+                                                                    <input id="country-2" type="text" value="United States">
+                                                                    <span class="select__placeholder-text">Select a country</span>
+                                                                    <span class="select__text"></span>
+                                                                    <div class="select__dropdown">
+                                                                        <div class="vertical-scroll swiper">
+                                                                            <div class="swiper-wrapper">
+                                                                                <div class="swiper-slide">
+                                                                                    <ul>
+                                                                                        <li class="active">
+                                                                                            <img src="../img/icons/usa-flag.svg" alt="icon">United States
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <img src="../img/icons/russia-flag.svg" alt="icon">Russia
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <img src="../img/icons/england-flag.svg" alt="icon">England
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="swiper-scrollbar"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label for="document-type">Document type</label>
+                                                                <input id="document-type" type="text" value="ID Card">
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label for="legal-name">Legal name</label>
+                                                                <input id="legal-name" type="text" value="Oliva">
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label>File 1</label>
+                                                                <div class="file-panel">
+                                                                    <div class="file-panel__img">
+                                                                        <img src="../img/src/file-img.jpg" alt="img">
+                                                                    </div>
+                                                                    <div class="file-panel__description">
+                                                                        <span class="file-panel__name">Front side</span>
+                                                                        <a href="#" class="file-panel__link">View picture</a>
+                                                                    </div>
+                                                                    <span class="file-panel__check"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="profile-form__fields-item">
+                                                                <label>File 2</label>
+                                                                <div class="file-panel">
+                                                                    <div class="file-panel__img">
+                                                                        <img src="../img/src/file-img.jpg" alt="img">
+                                                                    </div>
+                                                                    <div class="file-panel__description">
+                                                                        <span class="file-panel__name">Back side</span>
+                                                                        <a href="#" class="file-panel__link">View picture</a>
+                                                                    </div>
+                                                                    <span class="file-panel__check"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="profile-form__item">
+                                                <div class="profile-form__left-col">
+                                                    <h3 class="profile-form__title">Face verification</h3>
+                                                    <p class="profile-form__text">Photo of the user from government issued document, has to fit profile picture </p>
+                                                </div>
+                                                <div class="profile-form__right-col">
+                                                    <form>
+                                                        <div class="profile-form__fields">
+                                                            <div class="profile-form__fields-item">
+                                                                <label>File 1</label>
+                                                                <div class="file-panel">
+                                                                    <div class="file-panel__img">
+                                                                        <img src="../img/src/file-img.jpg" alt="img">
+                                                                    </div>
+                                                                    <div class="file-panel__description">
+                                                                        <span class="file-panel__name">Face verification</span>
+                                                                        <a href="#" class="file-panel__link">View picture</a>
+                                                                    </div>
+                                                                    <span class="file-panel__check"></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!-- wrapper End -->
+
+            <!-- mobile-overlay Start -->
+            <div class="mobile-overlay"></div>
+            <!-- mobile-overlay end -->
+
+        </div>
+        <!-- wrapper End -->
+
+        <!-- Plugin scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="../js/swiper-bundle.min.js"></script>
+        <script src="../js/custom-scroll.js"></script>
+
+        <!-- Scripts -->
+        <script src="../js/scripts.js"></script>
+        
+    </body>
+</html>

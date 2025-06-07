@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GiG</title>
+        <meta content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=0" name="viewport">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        
+        <link rel="stylesheet" href="../css/style.css" media="all">
+        <link rel="stylesheet" href="../css/swiper-bundle.min.css" media="all">
+        <link href="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.css" rel="stylesheet" />
+
+        <link href="../favicon.ico" rel="shortcut icon">
+    </head>
+    <body>  
+
+        <!-- wrapper Start -->
+        <div class="wrapper">
+
+            <!-- main Start -->
+            <main class="main">
+                
+                <!-- sidebar Start -->
+                <aside class="sidebar">
+                    <span class="close-btn">Close</span>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="../img/src/logo.svg" alt="Gig">
+                        </a>
+                    </div>
+                    <div class="sidebar-scroll">
+                        <div class="sidebar-scroll__viewport">
+                            <nav class="main-nav">
+                                <ul>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/search-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Search</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/bell-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Inbox</span>
+                                                <span class="main-nav__number color-red">12</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/home-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Home</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/settings-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Settings</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/plugin-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Plugins</span>
+                                                <span class="main-nav__number">3</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item active">
+                                        <span class="main-nav__small-text">Analytics</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item active">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/analytics.svg" alt="icon">
+                                                    <span class="main-nav__text">Audience</span>
+                                                </span>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/projects.svg" alt="icon">
+                                                        <span class="main-nav__text">Projects</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/financials.svg" alt="icon">
+                                                        <span class="main-nav__text">Financials</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Management</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <span class="main-nav__item-in down-arrow">
+                                                    <img class="main-nav__icon" src="../img/icons/users.svg" alt="icon">
+                                                    <span class="main-nav__text">Users</span>
+                                                </span>
+                                                <div class="main-nav__dropdown">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">
+                                                                <span class="main-nav__dropdown-item">
+                                                                    <img src="../img/icons/user.svg" alt="icon">
+                                                                    <span>Buyers</span>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <span class="main-nav__dropdown-item">
+                                                                    <img src="../img/icons/user.svg" alt="icon">
+                                                                    <span>Freelancers</span>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/orders.svg" alt="icon">
+                                                        <span class="main-nav__text">Orders</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/requests.svg" alt="icon">
+                                                        <span class="main-nav__text">Requests</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/transactions.svg" alt="icon">
+                                                        <span class="main-nav__text">Transactions</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/refunds.svg" alt="icon">
+                                                        <span class="main-nav__text">Refunds</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Communication</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/announcements.svg" alt="icon">
+                                                        <span class="main-nav__text">Announcements</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/communication.svg" alt="icon">
+                                                        <span class="main-nav__text">User communication</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/content-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Content</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/support-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Support</span>
+                                                        <span class="main-nav__number">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/disputes-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Disputes</span>
+                                                        <span class="main-nav__number">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/reports-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Reports</span>
+                                                        <span class="main-nav__number color-red">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">System</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">General</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Variables</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Freelancer</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Gig</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Support</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Languages</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Mail server</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="sidebar-scroll__track">
+                                <div class="sidebar-scroll__thumb"></div>
+                            </div>
+                        </div>
+                    </div>
+                            
+                    <div class="user-panel">
+                        <div class="user-panel__img">
+                            <a href="#">
+                                <img src="../img/src/user-img-sm.jpg" alt="user">
+                            </a>
+                        </div>
+                        <div class="user-panel__description">
+                            <span class="user-panel__name">
+                                <a href="#">Vladislav Topals</a>
+                            </span>
+                            <a href="#" class="user-panel__logout">Logout</a>
+                        </div>
+                    </div>
+                </aside>
+                <!-- Sidebar End -->
+
+                <!-- main Start -->
+                <section class="main-content">
+                    <div class="main-content__top-panel">
+                        <span class="menu-btn">Open</span>
+                        <nav class="bread-crumbs">
+                            <ul>
+                                <li class="bread-crumbs__item">
+                                    <a href="#">
+                                        <span class="bread-crumbs__item-in">
+                                            <img class="bread-crumbs__icon" src="../img/icons/audience.svg" alt="icon">
+                                            <span class="bread-crumbs__text">Analytics</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="bread-crumbs__item active">
+                                    <span class="bread-crumbs__item-in">
+                                        <img class="bread-crumbs__icon" src="../img/icons/analytics.svg" alt="icon">
+                                        <span class="bread-crumbs__text">Audience</span>
+                                    </span>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="content-wrap">
+                        <div class="analytics">
+                            <nav class="content-nav">
+                                <ul>
+                                    <li class="active">
+                                        <span>Audience</span>
+                                    </li>
+                                    <li>
+                                        <a href="#">Category</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Financials</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="analytics__top-panel">
+                                <div class="switch-panel">
+                                    <div class="switch-panel__item">
+                                        <input id="freelancers" type="radio" name="name-1">
+                                        <label for="freelancers">Freelancers</label>
+                                    </div>
+                                    <div class="switch-panel__item">
+                                        <input id="clients" type="radio" name="name-1">
+                                        <label for="clients">Clients</label>
+                                    </div>
+                                    <div class="switch-panel__item">
+                                        <input id="both" type="radio" name="name-1">
+                                        <label for="both">Both</label>
+                                    </div>
+                                    <div class="switch-panel__item">
+                                        <input id="all-1" type="radio" name="name-1" checked>
+                                        <label for="all-1">All</label>
+                                    </div>
+                                </div>
+                                <div class="switch-panel">
+                                    <div class="switch-panel__item">
+                                        <input id="day" type="radio" name="name-2">
+                                        <label for="day">Day</label>
+                                    </div>
+                                    <div class="switch-panel__item">
+                                        <input id="week" type="radio" name="name-2">
+                                        <label for="week">Week</label>
+                                    </div>
+                                    <div class="switch-panel__item">
+                                        <input id="month" type="radio" name="name-2" checked>
+                                        <label for="month">Month</label>
+                                    </div>
+                                    <div class="switch-panel__item">
+                                        <input id="all-2" type="radio" name="name-2">
+                                        <label for="all-2">All</label>
+                                    </div>
+                                    <div class="switch-panel__item">
+                                        <input id="custom" type="radio" name="name-2">
+                                        <label for="custom">Custom</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="charts">
+                                <div class="charts__item">
+                                    <div class="charts__top-panel">
+                                        <h3 class="charts__title"><img src="../img/icons/growth.svg" alt="icon">User growth</h3>
+                                    </div>
+                                    <div class="analytics-panel">
+                                        <div class="analytics-panel__item">
+                                            <dl>
+                                                <dt>
+                                                    <span class="analytics-panel__box" style="background: #E879F9;"></span>
+                                                    <span class="analytics-panel__title">Total visitors</span>
+                                                </dt>
+                                                <dd>
+                                                    <span class="analytics-panel__number">803k</span>
+                                                    <span class="percent-sticker percent-sticker_up-pos"><img src="../img/icons/up-arrow-percen.svg" alt="icon">12%</span>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                        <div class="analytics-panel__item">
+                                            <dl>
+                                                <dt>
+                                                    <span class="analytics-panel__box" style="background: #FDE68A;"></span>
+                                                    <span class="analytics-panel__title">Unique visitors</span>
+                                                </dt>
+                                                <dd>
+                                                    <span class="analytics-panel__number">120k</span>
+                                                    <span class="percent-sticker percent-sticker_up-pos"><img src="../img/icons/up-arrow-percen.svg" alt="icon">12%</span>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                        <div class="analytics-panel__item">
+                                            <dl>
+                                                <dt>
+                                                    <span class="analytics-panel__title">Sign-ups</span>
+                                                </dt>
+                                                <dd>
+                                                    <span class="analytics-panel__number">15k</span>
+                                                    <span class="percent-sticker percent-sticker_down-pos"><img src="../img/icons/down-arrow-percen.svg" alt="icon">12%</span>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div id="chart"></div>
+                                </div>
+                                <div class="charts__item">
+                                    <div class="charts__top-panel">
+                                        <h3 class="charts__title"><img src="../img/icons/age.svg" alt="icon">Age<img src="../img/icons/sort-arrow.svg" alt="icon"></h3>
+                                        <span class="sort-link">Quantity<img src="../img/icons/sort-arrow.svg" alt="icon"></span>
+                                    </div>
+                                    <div id="chartDonut" style="max-width: 380px; margin: 0 auto;"></div>
+                                </div>
+                                <div class="charts__item">
+                                    <div class="charts__top-panel">
+                                        <h3 class="charts__title"><img src="../img/icons/source.svg" alt="icon">Traffic source</h3>
+                                    </div>
+                                    <div class="visitors">
+                                        <div id="chartVisitors" style="max-width: 280px;"></div>
+                                        <div class="visitors__description">
+                                            <dl class="visitors__total">
+                                                <dt>Total visitors</dt>
+                                                <dd>420k</dd>
+                                            </dl>
+                                            <ul class="visitors__list">
+                                                <li>
+                                                    <dl>
+                                                        <dt>
+                                                            <span class="visitors__box" style="background: #5654D4;"></span>
+                                                            <span class="visitors__title">Digital Marketing</span>
+                                                        </dt>
+                                                        <dd>37.99%</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>
+                                                            <span class="visitors__box" style="background: #11428C;"></span>
+                                                            <span class="visitors__title">Graphics & Design</span>
+                                                        </dt>
+                                                        <dd>20%</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>
+                                                            <span class="visitors__box" style="background: #FFC90A;"></span>
+                                                            <span class="visitors__title">Business</span>
+                                                        </dt>
+                                                        <dd>13%</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>
+                                                            <span class="visitors__box" style="background: #FF9F0A;"></span>
+                                                            <span class="visitors__title">Video & Animation</span>
+                                                        </dt>
+                                                        <dd>12.2%</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>
+                                                            <span class="visitors__box" style="background: #FB3B52;"></span>
+                                                            <span class="visitors__title">Music & Audio</span>
+                                                        </dt>
+                                                        <dd>12.2%</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>
+                                                            <span class="visitors__box" style="background: #5654D4;"></span>
+                                                            <span class="visitors__title">Consulting</span>
+                                                        </dt>
+                                                        <dd>37.99%</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>
+                                                            <span class="visitors__box" style="background: #11428C;"></span>
+                                                            <span class="visitors__title">Writing & Translation</span>
+                                                        </dt>
+                                                        <dd>20%</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>
+                                                            <span class="visitors__box" style="background: #FFC90A;"></span>
+                                                            <span class="visitors__title">Data</span>
+                                                        </dt>
+                                                        <dd>13%</dd>
+                                                    </dl>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="charts__item">
+                                    <div class="charts__top-panel">
+                                        <h3 class="charts__title"><img src="../img/icons/time.svg" alt="icon">Session time</h3>
+                                    </div>
+                                    <div class="analytics-panel">
+                                        <div class="analytics-panel__item">
+                                            <dl>
+                                                <dt>
+                                                    <span class="analytics-panel__title">Average</span>
+                                                </dt>
+                                                <dd>
+                                                    <span class="analytics-panel__number">122.5s</span>
+                                                    <span class="percent-sticker percent-sticker_up-pos"><img src="../img/icons/up-arrow-percen.svg" alt="icon">12%</span>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                    <div id="chartSingleBar"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- main End -->
+
+                <!-- mobile-overlay Start -->
+                <div class="mobile-overlay"></div>
+                <!-- mobile-overlay end -->
+
+            </main>
+            <!-- main end -->
+
+        </div>   
+        <!-- wrapper end -->
+
+        <!-- Plugin scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="../js/swiper-bundle.min.js"></script>
+        <script src="../js/custom-scroll.js"></script>
+
+        <!-- Scripts -->
+        <script src="../js/scripts.js"></script>
+
+    </body>
+
+</html>     

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GiG</title>
+        <meta content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=0" name="viewport">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        
+        <link rel="stylesheet" href="../css/style.css" media="all">
+        <link rel="stylesheet" href="../css/swiper-bundle.min.css" media="all">
+        <link href="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.css" rel="stylesheet" />
+
+        <link href="../favicon.ico" rel="shortcut icon">
+    </head>
+    <body>  
+
+        <!-- wrapper Start -->
+        <div class="wrapper">
+
+            <!-- main Start -->
+            <main class="main">
+                
+                <!-- sidebar Start -->
+                <aside class="sidebar">
+                    <span class="close-btn">Close</span>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="../img/src/logo.svg" alt="Gig">
+                        </a>
+                    </div>
+                    <div class="sidebar-scroll">
+                        <div class="sidebar-scroll__viewport">
+                            <nav class="main-nav">
+                                <ul>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/search-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Search</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/bell-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Inbox</span>
+                                                <span class="main-nav__number color-red">12</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/home-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Home</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/settings-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Settings</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/plugin-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Plugins</span>
+                                                <span class="main-nav__number">3</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Analytics</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/analytics.svg" alt="icon">
+                                                        <span class="main-nav__text">Audience</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/projects.svg" alt="icon">
+                                                        <span class="main-nav__text">Projects</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/financials.svg" alt="icon">
+                                                        <span class="main-nav__text">Financials</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Management</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <span class="main-nav__item-in down-arrow">
+                                                    <img class="main-nav__icon" src="../img/icons/users.svg" alt="icon">
+                                                    <span class="main-nav__text">Users</span>
+                                                </span>
+                                                <div class="main-nav__dropdown">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">
+                                                                <span class="main-nav__dropdown-item">
+                                                                    <img src="../img/icons/user.svg" alt="icon">
+                                                                    <span>Buyers</span>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <span class="main-nav__dropdown-item">
+                                                                    <img src="../img/icons/user.svg" alt="icon">
+                                                                    <span>Freelancers</span>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/orders.svg" alt="icon">
+                                                        <span class="main-nav__text">Orders</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/requests.svg" alt="icon">
+                                                        <span class="main-nav__text">Requests</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/transactions.svg" alt="icon">
+                                                        <span class="main-nav__text">Transactions</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/refunds.svg" alt="icon">
+                                                        <span class="main-nav__text">Refunds</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Communication</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/announcements.svg" alt="icon">
+                                                        <span class="main-nav__text">Announcements</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/communication.svg" alt="icon">
+                                                        <span class="main-nav__text">User communication</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/content-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Content</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/support-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Support</span>
+                                                        <span class="main-nav__number">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/disputes-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Disputes</span>
+                                                        <span class="main-nav__number">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/reports-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Reports</span>
+                                                        <span class="main-nav__number color-red">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item active">
+                                        <span class="main-nav__small-text">System</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">General</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Variables</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Freelancer</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Gig</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Support</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Languages</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Mail server</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="sidebar-scroll__track">
+                            <div class="sidebar-scroll__thumb"></div>
+                        </div>
+                    </div>
+                    <div class="user-panel">
+                        <div class="user-panel__img">
+                            <a href="#">
+                                <img src="../img/src/user-img-sm.jpg" alt="user">
+                            </a>
+                        </div>
+                        <div class="user-panel__description">
+                            <span class="user-panel__name">
+                                <a href="#">Vladislav Topals</a>
+                            </span>
+                            <a href="#" class="user-panel__logout">Logout</a>
+                        </div>
+                    </div>
+                </aside>
+                <!-- Sidebar End -->
+
+                <!-- main Start -->
+                <section class="main-content">
+                    <div class="main-content__top-panel">
+                        <div class="main-content__top-panel-left-col">
+                            <span class="menu-btn">Open</span>
+                            <nav class="bread-crumbs">
+                                <ul>
+                                    <li class="bread-crumbs__item">
+                                        <a href="#">
+                                            <span class="bread-crumbs__item-in">
+                                                <img class="bread-crumbs__icon" src="../img/icons/bread-crumbs-inbox.svg" alt="icon">
+                                                <span class="bread-crumbs__text">Inbox</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="content-wrap">
+                        <h1 class="title">Notifications</h1>
+                        <div class="notifications changed">
+                            <div class="notifications__item">
+                                <div class="notifications__icon">
+                                    <img src="../img/icons/notifications-icon.svg" alt="icon">
+                                </div>
+                                <div class="notifications__description">
+                                    <span class="notifications__days">12 days ago</span>
+                                    <span class="notifications__text">cbfeed has used some spam words in</span>
+                                    <span class="notifications__link">
+                                        <a href="#">View Conversation</a>
+                                    </span>
+                                    <span class="notifications__delete">Delete</span>
+                                </div>
+                            </div>
+                            <div class="notifications__item">
+                                <div class="notifications__icon">
+                                    <img src="../img/icons/notifications-icon.svg" alt="icon">
+                                </div>
+                                <div class="notifications__description">
+                                    <span class="notifications__days">12 days ago</span>
+                                    <span class="notifications__text">cbfeed has used some spam words in</span>
+                                    <span class="notifications__link">
+                                        <a href="#">View Conversation</a>
+                                    </span>
+                                    <span class="notifications__delete">Delete</span>
+                                </div>
+                            </div>
+                            <div class="notifications__item">
+                                <div class="notifications__icon">
+                                    <img src="../img/icons/notifications-icon.svg" alt="icon">
+                                </div>
+                                <div class="notifications__description">
+                                    <span class="notifications__days">12 days ago</span>
+                                    <span class="notifications__text">cbfeed has used some spam words in</span>
+                                    <span class="notifications__link">
+                                        <a href="#">View Conversation</a>
+                                    </span>
+                                    <span class="notifications__delete">Delete</span>
+                                </div>
+                            </div>
+                            <div class="notifications__item">
+                                <div class="notifications__icon">
+                                    <img src="../img/icons/notifications-icon.svg" alt="icon">
+                                </div>
+                                <div class="notifications__description">
+                                    <span class="notifications__days">12 days ago</span>
+                                    <span class="notifications__text">cbfeed has used some spam words in</span>
+                                    <span class="notifications__link">
+                                        <a href="#">View Conversation</a>
+                                    </span>
+                                    <span class="notifications__delete">Delete</span>
+                                </div>
+                            </div>
+                            <div class="notifications__item">
+                                <div class="notifications__icon">
+                                    <img src="../img/icons/notifications-icon.svg" alt="icon">
+                                </div>
+                                <div class="notifications__description">
+                                    <span class="notifications__days">12 days ago</span>
+                                    <span class="notifications__text">cbfeed has used some spam words in</span>
+                                    <span class="notifications__link">
+                                        <a href="#">View Conversation</a>
+                                    </span>
+                                    <span class="notifications__delete">Delete</span>
+                                </div>
+                            </div>
+                            <div class="notifications__item">
+                                <div class="notifications__icon">
+                                    <img src="../img/icons/notifications-icon.svg" alt="icon">
+                                </div>
+                                <div class="notifications__description">
+                                    <span class="notifications__days">12 days ago</span>
+                                    <span class="notifications__text">cbfeed has used some spam words in</span>
+                                    <span class="notifications__link">
+                                        <a href="#">View Conversation</a>
+                                    </span>
+                                    <span class="notifications__delete">Delete</span>
+                                </div>
+                            </div>
+                            <div class="notifications__item">
+                                <div class="notifications__icon">
+                                    <img src="../img/icons/notifications-icon.svg" alt="icon">
+                                </div>
+                                <div class="notifications__description">
+                                    <span class="notifications__days">12 days ago</span>
+                                    <span class="notifications__text">cbfeed has used some spam words in</span>
+                                    <span class="notifications__link">
+                                        <a href="#">View Conversation</a>
+                                    </span>
+                                    <span class="notifications__delete">Delete</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- main End -->
+
+                <!-- mobile-overlay Start -->
+                <div class="mobile-overlay"></div>
+                <!-- mobile-overlay end -->
+
+            </main>
+            <!-- main end -->
+
+        </div>   
+        <!-- wrapper end -->
+
+        <!-- Plugin scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="../js/swiper-bundle.min.js"></script>
+        <script src="../js/custom-scroll.js"></script>
+
+        <!-- Scripts -->
+        <script src="../js/scripts.js"></script>
+
+    </body>
+
+</html>     

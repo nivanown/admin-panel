@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GiG</title>
+        <meta content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=0" name="viewport">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        
+        <link rel="stylesheet" href="../css/style.css" media="all">
+        <link rel="stylesheet" href="../css/swiper-bundle.min.css" media="all">
+        <link rel="stylesheet" href="../css/quill.min.css" media="all">
+        <link href="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.css" rel="stylesheet" />
+
+        <link href="../favicon.ico" rel="shortcut icon">
+    </head>
+    <body>  
+
+        <!-- wrapper Start -->
+        <div class="wrapper">
+
+            <!-- main Start -->
+            <main class="main">
+                
+                <!-- sidebar Start -->
+                <aside class="sidebar">
+                    <span class="close-btn">Close</span>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="../img/src/logo.svg" alt="Gig">
+                        </a>
+                    </div>
+                    <div class="sidebar-scroll">
+                        <div class="sidebar-scroll__viewport">
+                            <nav class="main-nav">
+                                <ul>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/search-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Search</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/bell-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Inbox</span>
+                                                <span class="main-nav__number color-red">12</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/home-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Home</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/settings-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Settings</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/plugin-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Plugins</span>
+                                                <span class="main-nav__number">3</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Analytics</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/analytics.svg" alt="icon">
+                                                        <span class="main-nav__text">Audience</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/projects.svg" alt="icon">
+                                                        <span class="main-nav__text">Projects</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/financials.svg" alt="icon">
+                                                        <span class="main-nav__text">Financials</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Management</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <span class="main-nav__item-in down-arrow">
+                                                    <img class="main-nav__icon" src="../img/icons/users.svg" alt="icon">
+                                                    <span class="main-nav__text">Users</span>
+                                                </span>
+                                                <div class="main-nav__dropdown">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">
+                                                                <span class="main-nav__dropdown-item">
+                                                                    <img src="../img/icons/user.svg" alt="icon">
+                                                                    <span>Buyers</span>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <span class="main-nav__dropdown-item">
+                                                                    <img src="../img/icons/user.svg" alt="icon">
+                                                                    <span>Freelancers</span>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/orders.svg" alt="icon">
+                                                        <span class="main-nav__text">Orders</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/requests.svg" alt="icon">
+                                                        <span class="main-nav__text">Requests</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/transactions.svg" alt="icon">
+                                                        <span class="main-nav__text">Transactions</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/refunds.svg" alt="icon">
+                                                        <span class="main-nav__text">Refunds</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Communication</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/announcements.svg" alt="icon">
+                                                        <span class="main-nav__text">Announcements</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/communication.svg" alt="icon">
+                                                        <span class="main-nav__text">User communication</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/content-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Content</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/support-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Support</span>
+                                                        <span class="main-nav__number">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/disputes-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Disputes</span>
+                                                        <span class="main-nav__number">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/reports-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Reports</span>
+                                                        <span class="main-nav__number color-red">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item active">
+                                        <span class="main-nav__small-text">System</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item active">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                    <span class="main-nav__text">General</span>
+                                                </span>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Variables</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Freelancer</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Gig</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Support</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Languages</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Mail server</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="sidebar-scroll__track">
+                            <div class="sidebar-scroll__thumb"></div>
+                        </div>
+                    </div>
+                    <div class="user-panel">
+                        <div class="user-panel__img">
+                            <a href="#">
+                                <img src="../img/src/user-img-sm.jpg" alt="user">
+                            </a>
+                        </div>
+                        <div class="user-panel__description">
+                            <span class="user-panel__name">
+                                <a href="#">Vladislav Topals</a>
+                            </span>
+                            <a href="#" class="user-panel__logout">Logout</a>
+                        </div>
+                    </div>
+                </aside>
+                <!-- Sidebar End -->
+
+                <!-- main Start -->
+                <section class="main-content">
+                    <div class="main-content__top-panel">
+                        <div class="main-content__top-panel-left-col">
+                            <span class="menu-btn">Open</span>
+                            <nav class="bread-crumbs">
+                                <ul>
+                                    <li class="bread-crumbs__item">
+                                        <a href="#">
+                                            <span class="bread-crumbs__item-in">
+                                                <img class="bread-crumbs__icon" src="../img/icons/system.svg" alt="icon">
+                                                <span class="bread-crumbs__text">System</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="bread-crumbs__item active">
+                                        <span class="bread-crumbs__item-in">
+                                            <img class="bread-crumbs__icon" src="../img/icons/general.svg" alt="icon">
+                                            <span class="bread-crumbs__text">General</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="tabs changed">
+                        <nav class="tabs__nav">
+                            <ul>
+                                <li class="active">Main</li>
+                                <li>SEO</li>
+                                <li>Analytics</li>
+                                <li>Social Media</li>
+                                <li>Seller levels</li>
+                                <li>Payment</li>
+                                <li>Fees</li>
+                                <li>Legal</li>
+                                <li>Application</li>
+                            </ul>
+                        </nav>
+                        <div class="tabs__content">
+                            <div class="tabs__item active">
+                                <div class="system-wrap">
+                                    <form>
+                                        <div class="top-panel">
+                                            <h1 class="title"><img src="../img/icons/general.svg" alt="icon">General</h1>
+                                            <div class="btns-col">
+                                                <button class="btn btn_color-transparent" type="submit">Cancel</button>
+                                                <button class="btn" type="submit">Save edits</button>
+                                            </div>
+                                        </div>
+                                        <div class="system-form">
+                                            <div class="system-form__in">
+                                                <div class="system-form__item">
+                                                    <label for="site-title">Site Title</label>
+                                                    <div class="system-form__field">
+                                                        <input id="site-title" type="text" value="GigLancer - Фриланс площадка услуг в Ташкенте и Узбекистане.">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="site-description">Site Description</label>
+                                                    <div class="system-form__field">
+                                                        <textarea id="site-description" class="textarea textarea_size-small">GigLancer - Фриланс площадка услуг в Ташкенте и Узбекистане. Удаленная онлайн работа предоставляет широкий спектр услуг и позволяет искать исполнителей для любых задач</textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="site-url">Site Url</label>
+                                                    <div class="system-form__field">
+                                                        <input id="site-url" type="text" value="https://www.giglancer.uz">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="site-email">Site Email Address</label>
+                                                    <div class="system-form__field">
+                                                        <input id="site-email" type="email" value="support@giglancer.uz">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="site-name">Site Name</label>
+                                                    <div class="system-form__field">
+                                                        <input id="site-name" type="text" value="https://www.giglancer.uz">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label>Site (WWW)</label>
+                                                    <div class="system-form__field">
+                                                        <ul class="radio-list">
+                                                            <li>
+                                                                <div class="radio">
+                                                                    <input id="site-enable" type="radio" name="site" checked>
+                                                                    <label for="site-enable">Enable</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="radio">
+                                                                    <input id="site-disable" type="radio" name="site">
+                                                                    <label for="site-disable">Disable</label>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label>Manual Payouts</label>
+                                                    <div class="system-form__field">
+                                                        <ul class="radio-list">
+                                                            <li>
+                                                                <div class="radio">
+                                                                    <input id="manual-enable" type="radio" name="manual" checked>
+                                                                    <label for="manual-enable">Enable</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="radio">
+                                                                    <input id="manual-disable" type="radio" name="manual">
+                                                                    <label for="manual-disable">Disable</label>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="site-timezone">Site Timezone</label>
+                                                    <div class="system-form__field">
+                                                        <input id="site-timezone" type="text" value="Asia/Tashkent">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="site-currency">Site Currency</label>
+                                                    <div class="system-form__field">
+                                                        <input id="site-currency" type="text" value="Uzbekistani som (uzs)">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label>Enable Maintenance<br> Mode</label>
+                                                    <div class="system-form__field">
+                                                        <ul class="radio-list">
+                                                            <li>
+                                                                <div class="radio">
+                                                                    <input id="mode-enable" type="radio" name="mode" checked>
+                                                                    <label for="mode-enable">Enable</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="radio">
+                                                                    <input id="mode-disable" type="radio" name="mode">
+                                                                    <label for="mode-disable">Disable</label>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tabs__item">
+                                <div class="system-wrap">
+                                    <form>
+                                        <div class="top-panel">
+                                            <h1 class="title"><img src="../img/icons/general.svg" alt="icon">General</h1>
+                                            <div class="btns-col">
+                                                <button class="btn btn_color-transparent" type="submit">Cancel</button>
+                                                <button class="btn" type="submit">Save edits</button>
+                                            </div>
+                                        </div>
+                                        <div class="system-form">
+                                            <div class="system-form__in">
+                                                <div class="system-form__item">
+                                                    <label for="site-keywords">Site Keywords</label>
+                                                    <div class="system-form__field">
+                                                        <input id="site-keywords" type="text" value="Фриланс Биржа в Узбекистане, фриланс платформа в Узбекистане">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label>Site Favicon</label>
+                                                    <div class="system-form__field">
+                                                        <div class="system-form__favicon">
+                                                            <img src="../img/src/account-img.jpg" alt="favicon">
+                                                        </div>
+                                                        <span class="btn btn_color-transparent">Delete image</span>
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label>Site Logo</label>
+                                                    <div class="system-form__field">
+                                                        <div class="system-form__logo">
+                                                            <img src="../img/src/logo.svg" alt="favicon">
+                                                        </div>
+                                                        <span class="btn btn_color-transparent">Delete image</span>
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="site-key">Google Recaptcha Site Key</label>
+                                                    <div class="system-form__field">
+                                                        <input id="site-key" type="text" value="wodifhwp9eyf98whehwe9fuwevh">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="secret-key">Google Re captcha Secret Key</label>
+                                                    <div class="system-form__field">
+                                                        <input id="secret-key" type="text" value="wodifhwp9eyf98whehwe9fuwevh">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="player-code">JwPlayer Code</label>
+                                                    <div class="system-form__field">
+                                                        <input id="player-code" type="text" value="wodifhwp9eyf98whehwe9fuwevh">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="site-keywords">Google Search Console</label>
+                                                    <div class="system-form__field">
+                                                        <span class="btn btn_color-orange">Connect</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tabs__item">
+                                <div class="system-wrap">
+                                    <form>
+                                        <div class="top-panel">
+                                            <h1 class="title"><img src="../img/icons/general.svg" alt="icon">General</h1>
+                                            <div class="btns-col">
+                                                <button class="btn btn_color-transparent" type="submit">Cancel</button>
+                                                <button class="btn" type="submit">Save edits</button>
+                                            </div>
+                                        </div>
+                                        <div class="system-form">
+                                            <div class="system-form__in">
+                                                <div class="system-form__item">
+                                                    <label for="google-analytics">Google Analytics</label>
+                                                    <div class="system-form__field">
+                                                        <input id="google-analytics" type="text" value="G-ECSES78HVC7">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="google-analytics">Google Tag Manager ID</label>
+                                                    <div class="system-form__field">
+                                                        <input id="google-analytics" type="text" value="G-ECSES78HVC7">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="facebook-pixel">Facebook Pixel</label>
+                                                    <div class="system-form__field">
+                                                        <input id="facebook-pixel" type="text" value="11111111111">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="yandex-metrica">Yandex.Metrica</label>
+                                                    <div class="system-form__field">
+                                                        <input id="yandex-metrica" type="text" value="35465762">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="vk-pixel">VK Pixel</label>
+                                                    <div class="system-form__field">
+                                                        <input id="vk-pixel" type="text" value="VK-RTRG-111111-aA1A1">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tabs__item">
+                                <div class="system-wrap">
+                                    <form>
+                                        <div class="top-panel">
+                                            <h1 class="title"><img src="../img/icons/general.svg" alt="icon">General</h1>
+                                            <div class="btns-col">
+                                                <button class="btn btn_color-transparent" type="submit">Cancel</button>
+                                                <button class="btn" type="submit">Save edits</button>
+                                            </div>
+                                        </div>
+                                        <div class="system-form">
+                                            <div class="system-form__in">
+                                                <div class="system-form__item">
+                                                    <label for="app-id">Facebook App Id</label>
+                                                    <div class="system-form__field">
+                                                        <input id="app-id" type="text" value="G-ECSES78HVC7">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="app-secret">Facebook App Secret</label>
+                                                    <div class="system-form__field">
+                                                        <input id="app-secret" type="text" value="11111111111">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label>Enable Social Login</label>
+                                                    <div class="system-form__field">
+                                                        <ul class="radio-list">
+                                                            <li>
+                                                                <div class="radio">
+                                                                    <input id="social-enable" type="radio" name="social" checked>
+                                                                    <label for="social-enable">Enable</label>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="radio">
+                                                                    <input id="social-disable" type="radio" name="social">
+                                                                    <label for="social-disable">Disable</label>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="client-id">Google Client Id</label>
+                                                    <div class="system-form__field">
+                                                        <input id="client-id" type="text" value="35465762">
+                                                    </div>
+                                                </div>
+                                                <div class="system-form__item">
+                                                    <label for="client-secret">Google Client Secret</label>
+                                                    <div class="system-form__field">
+                                                        <input id="client-secret" type="text" value="VK-RTRG-111111-aA1A1">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tabs__item">
+                                <div class="system-wrap">
+                                    <form>
+                                        <div class="top-panel">
+                                            <h1 class="title"><img src="../img/icons/general.svg" alt="icon">General</h1>
+                                            <div class="btns-col">
+                                                <button class="btn btn_color-transparent" type="submit">Cancel</button>
+                                                <button class="btn" type="submit">Save edits</button>
+                                            </div>
+                                        </div>
+                                        <div class="gl-form">
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title"><img src="../img/icons/beginner-icon.svg" alt="icon">Beginner</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="rating">Rating</label>
+                                                        <div class="gl-form__field">
+                                                            <input id="rating" type="text" value="0">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="response-rate">Response rate</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="response-rate" type="text" value="80">
+                                                                <img src="../img/icons/percent.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="orders">Orders</label>
+                                                        <div class="gl-form__field">
+                                                            <input id="orders" type="text" value="5">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="earnings">Earnings</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="earnings" type="text" value="250">
+                                                                <img src="../img/icons/money.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title"><img src="../img/icons/advanced-icon.svg" alt="icon">Advanced</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="rating-2">Rating</label>
+                                                        <div class="gl-form__field">
+                                                            <input id="rating-2" type="text" value="0">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="response-rate-2">Response rate</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="response-rate-2" type="text" value="80">
+                                                                <img src="../img/icons/percent.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="orders-2">Orders</label>
+                                                        <div class="gl-form__field">
+                                                            <input id="orders-2" type="text" value="5">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="earnings-2">Earnings</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="earnings-2" type="text" value="250">
+                                                                <img src="../img/icons/money.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title"><img src="../img/icons/expert-icon.svg" alt="icon">Expert</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="rating-3">Rating</label>
+                                                        <div class="gl-form__field">
+                                                            <input id="rating-3" type="text" value="0">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="response-rate-3">Response rate</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="response-rate-3" type="text" value="80">
+                                                                <img src="../img/icons/percent.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="orders-3">Orders</label>
+                                                        <div class="gl-form__field">
+                                                            <input id="orders-3" type="text" value="5">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="earnings-3">Earnings</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="earnings-3" type="text" value="250">
+                                                                <img src="../img/icons/money.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title"><img src="../img/icons/top-expert-icon.svg" alt="icon">Top Expert</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="rating-4">Rating</label>
+                                                        <div class="gl-form__field">
+                                                            <input id="rating-4" type="text" value="0">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="response-rate-4">Response rate</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="response-rate-4" type="text" value="80">
+                                                                <img src="../img/icons/percent.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="orders-4">Orders</label>
+                                                        <div class="gl-form__field">
+                                                            <input id="orders-4" type="text" value="5">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="earnings-4">Earnings</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="earnings-4" type="text" value="250">
+                                                                <img src="../img/icons/money.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tabs__item">
+                                <div class="system-wrap">
+                                    <form>
+                                        <div class="top-panel">
+                                            <h1 class="title"><img src="../img/icons/general.svg" alt="icon">General</h1>
+                                            <div class="btns-col">
+                                                <button class="btn btn_color-transparent" type="submit">Cancel</button>
+                                                <button class="btn" type="submit">Save edits</button>
+                                            </div>
+                                        </div>
+                                        <div class="gl-form">
+                                            <div class="gl-form__item">
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label class="indent-top">Days Before Withdrawal</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="gl-form__input-list">
+                                                                <li>
+                                                                    <label for="basic-subscription">Basic subscription</label>
+                                                                    <input id="basic-subscription" type="text" value="14">
+                                                                </li>
+                                                                <li>
+                                                                    <label for="premium-subscription">Premium subscription</label>
+                                                                    <input id="premium-subscription" type="text" value="7">
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="withdrawal-limit">Minimum<br> Withdrawal Limit</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="withdrawal-limit" type="text" value="5">
+                                                                <img src="../img/icons/money.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Promotion<br> CPC limits</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="gl-form__input-list">
+                                                                <li>
+                                                                    <div class="gl-input">
+                                                                        <input id="basic-subscription" type="text" value="0.2">
+                                                                        <span class="gl-input__text">min</span>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="gl-input">
+                                                                        <input id="premium-subscription" type="text" value="50">
+                                                                        <span class="gl-input__text">max</span>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title">Payoneer</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="enable-stripe">Enable PayPal</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="select">
+                                                                <input id="enable-paypal" type="text" value="Yes">
+                                                                <span class="select__placeholder-text">Select</span>
+                                                                <span class="select__text"></span>
+                                                                <div class="select__dropdown">
+                                                                    <div class="vertical-scroll swiper">
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <ul>
+                                                                                    <li class="active">Yes</li>
+                                                                                    <li>No</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-scrollbar"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="gl-form__text">Allow users to withdraw using Payoneer.<br> In order for this to work, you need to enable manual payouts in main tab.</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title">PayPal</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="enable-paypal-2">Enable PayPal</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="select">
+                                                                <input id="enable-paypal-2" type="text" value="Yes">
+                                                                <span class="select__placeholder-text">Select</span>
+                                                                <span class="select__text"></span>
+                                                                <div class="select__dropdown">
+                                                                    <div class="vertical-scroll swiper">
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <ul>
+                                                                                    <li class="active">Yes</li>
+                                                                                    <li>No</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-scrollbar"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="gl-form__text">Allow users to pay using PayPal</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="paypal-email">PayPal Email</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="select">
+                                                                <input id="paypal-email" type="text" value="snorl**********@.com">
+                                                                <span class="select__placeholder-text">Select</span>
+                                                                <span class="select__text"></span>
+                                                                <div class="select__dropdown">
+                                                                    <div class="vertical-scroll swiper">
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <ul>
+                                                                                    <li class="active">snorl**********@.com</li>
+                                                                                    <li>pasn**********@.com</li>
+                                                                                    <li>nukr**********@.com</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-scrollbar"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="gl-form__text">Enter a PayPal business email address in order to receive payments and also to transfer funds to that PayPal account.</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="paypal-code">PayPal Currency Code</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="select">
+                                                                <input id="paypal-code" type="text" value="USD">
+                                                                <span class="select__placeholder-text">Select</span>
+                                                                <span class="select__text"></span>
+                                                                <div class="select__dropdown">
+                                                                    <div class="vertical-scroll swiper">
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <ul>
+                                                                                    <li class="active">USD</li>
+                                                                                    <li>RUB</li>
+                                                                                    <li>UZS</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-scrollbar"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="gl-form__text">Currency code used for PayPal payments. Complete list here</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="paypal-client-id">PayPal App Client Id</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="select">
+                                                                <input id="paypal-client-id" type="text">
+                                                                <span class="select__placeholder-text">Select</span>
+                                                                <span class="select__text"></span>
+                                                                <div class="select__dropdown">
+                                                                    <div class="vertical-scroll swiper">
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <ul>
+                                                                                    <li>ID 1</li>
+                                                                                    <li>ID 2</li>
+                                                                                    <li>ID 3</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-scrollbar"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="paypal-client-id">PayPal App Client Secret</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="select">
+                                                                <input id="paypal-client-id" type="text" value="-mK4s********EaJvX-SmJdW">
+                                                                <span class="select__placeholder-text">Select</span>
+                                                                <span class="select__text"></span>
+                                                                <div class="select__dropdown">
+                                                                    <div class="vertical-scroll swiper">
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <ul>
+                                                                                    <li class="active">-mK4s********EaJvX-SmJdW</li>
+                                                                                    <li>-mK4s********EaJvX-SmJdW</li>
+                                                                                    <li>-mK4s********EaJvX-SmJdW</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-scrollbar"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>PayPal Sandbox</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="paypal-sandbox-on" type="radio" name="paypal-sandbox" checked>
+                                                                        <label for="paypal-sandbox-on">On</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="paypal-sandbox-off" type="radio" name="paypal-sandbox">
+                                                                        <label for="paypal-sandbox-off">Off</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title">Stripe</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="enable-stripe">Enable Stripe</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="select">
+                                                                <input id="enable-stripe" type="text" value="No">
+                                                                <span class="select__placeholder-text">Select</span>
+                                                                <span class="select__text"></span>
+                                                                <div class="select__dropdown">
+                                                                    <div class="vertical-scroll swiper">
+                                                                        <div class="swiper-wrapper">
+                                                                            <div class="swiper-slide">
+                                                                                <ul>
+                                                                                    <li class="active">No</li>
+                                                                                    <li>Yes</li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="swiper-scrollbar"></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <span class="gl-form__text">Allow buyers to pay with stripe</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tabs__item">
+                                <div class="system-wrap">
+                                    <form>
+                                        <div class="top-panel">
+                                            <h1 class="title"><img src="../img/icons/general.svg" alt="icon">General</h1>
+                                            <div class="btns-col">
+                                                <button class="btn btn_color-transparent" type="submit">Cancel</button>
+                                                <button class="btn" type="submit">Save edits</button>
+                                            </div>
+                                        </div>
+                                        <div class="gl-form">
+                                            <div class="gl-form__item">
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="request">Request for Offer Fee</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="request" type="text" value="5">
+                                                                <img src="../img/icons/money.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="purchase-fee">Gig Purchase Fee</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="purchase-fee" type="text" value="2,5">
+                                                                <img src="../img/icons/money.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label for="withdrawal-fee">Withdrawal Fee</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="withdrawal-fee" type="text" value="1">
+                                                                <img src="../img/icons/money.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title">Newbie</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="commission">Commission</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="commission" type="text" value="25">
+                                                                <img src="../img/icons/percent.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title"><img src="../img/icons/beginner-icon.svg" alt="icon">Beginner</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="commission-2">Commission</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="commission-2" type="text" value="25">
+                                                                <img src="../img/icons/percent.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title"><img src="../img/icons/advanced-icon.svg" alt="icon">Advanced</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="commission-3">Commission</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="commission-3" type="text" value="25">
+                                                                <img src="../img/icons/percent.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title"><img src="../img/icons/expert-icon.svg" alt="icon">Expert</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="commission-4">Commission</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="commission-4" type="text" value="25">
+                                                                <img src="../img/icons/percent.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title"><img src="../img/icons/top-expert-icon.svg" alt="icon">Top Expert</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label for="commission-5">Commission</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="gl-input">
+                                                                <input id="commission-5" type="text" value="25">
+                                                                <img src="../img/icons/percent.svg" alt="icon">
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tabs__item">
+                                <div class="system-wrap">
+                                    <form>
+                                        <div class="top-panel">
+                                            <h1 class="title"><img src="../img/icons/general.svg" alt="icon">General</h1>
+                                            <div class="btns-col">
+                                                <button class="btn btn_color-transparent" type="submit">Cancel</button>
+                                                <button class="btn" type="submit">Save edits</button>
+                                            </div>
+                                        </div>
+                                        <div class="gl-form">
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title">Terms</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label>Title</label>
+                                                        <div class="gl-form__field">
+                                                            <textarea class="textarea textarea_size-small">GigLancer - Фриланс площадка услуг в Ташкенте и Узбекистане. Удаленная онлайн работа предоставляет широкий спектр услуг и позволяет искать исполнителей для любых задач</textarea>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Site Description</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="content-editor content-editor_indent-top">
+                                                                <div id="toolbar1" class="content-editor__nav-panel">
+                                                                    <select class="ql-header">
+                                                                        <option selected>Paragraph</option>
+                                                                        <option value="1">Heading 1</option>
+                                                                        <option value="2">Heading 2</option>
+                                                                    </select>
+                                                                    <button class="ql-bold"></button>
+                                                                    <button class="ql-italic"></button>
+                                                                    <button class="ql-list" value="ordered"></button>
+                                                                    <button class="ql-list" value="bullet"></button>
+                                                                    <button class="ql-blockquote"></button>
+                                                                    <button class="ql-code-block"></button>
+                                                                    <button class="ql-table"></button>
+                                                                </div>
+                                                                <div id="editor1" class="content-editor__textarea"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Link</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="https://www.giglancer.uz/terms">
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title">Privacy Policy</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label>Title</label>
+                                                        <div class="gl-form__field">
+                                                            <textarea class="textarea textarea_size-small">GigLancer - Фриланс площадка услуг в Ташкенте и Узбекистане. Удаленная онлайн работа предоставляет широкий спектр услуг и позволяет искать исполнителей для любых задач</textarea>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Site Description</label>
+                                                        <div class="gl-form__field">
+                                                            <div class="content-editor content-editor_indent-top">
+                                                                <div id="toolbar2" class="content-editor__nav-panel">
+                                                                    <select class="ql-header">
+                                                                        <option selected>Paragraph</option>
+                                                                        <option value="1">Heading 1</option>
+                                                                        <option value="2">Heading 2</option>
+                                                                    </select>
+                                                                    <button class="ql-bold"></button>
+                                                                    <button class="ql-italic"></button>
+                                                                    <button class="ql-list" value="ordered"></button>
+                                                                    <button class="ql-list" value="bullet"></button>
+                                                                    <button class="ql-blockquote"></button>
+                                                                    <button class="ql-code-block"></button>
+                                                                    <button class="ql-table"></button>
+                                                                </div>
+                                                                <div id="editor2" class="content-editor__textarea"></div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Link</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="https://www.giglancer.uz/terms">
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tabs__item">
+                                <div class="system-wrap">
+                                    <form>
+                                        <div class="top-panel">
+                                            <h1 class="title"><img src="../img/icons/general.svg" alt="icon">General</h1>
+                                            <div class="btns-col">
+                                                <button class="btn btn_color-transparent" type="submit">Cancel</button>
+                                                <button class="btn" type="submit">Save edits</button>
+                                            </div>
+                                        </div>
+                                        <div class="application">
+                                            <h3 class="small-title">Application Information</h3>
+                                            <ul class="application__info-list">
+                                                <li>
+                                                    <dl>
+                                                        <dt>Title</dt>
+                                                        <dd>1.5.0</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>Realease Date</dt>
+                                                        <dd>2 May 2020</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>Php Version</dt>
+                                                        <dd>7.4.33</dd>
+                                                    </dl>
+                                                </li>
+                                                <li>
+                                                    <dl>
+                                                        <dt>Installed On</dt>
+                                                        <dd>https://www.giglancer.uz</dd>
+                                                    </dl>
+                                                </li>
+                                            </ul>
+                                            <div class="note">
+                                                <span class="note__title">NOTE!</span>
+                                                <p>If you want to update your script from version 1.0 to a newer version, you will have to update it version by version at a time. That is, 1.1, 1.2, 1.3 etc.</p>
+                                            </div>
+                                            <h3 class="small-title">Application Updater</h3>
+                                            <ul class="application__info-list">
+                                                <li>
+                                                    <dl>
+                                                        <dt>Update File</dt>
+                                                        <dd>
+                                                            <div class="choose-file-form">
+                                                                <div class="choose-file-form__field">
+                                                                    <div class="choose-file-input">
+                                                                        <input type="file">
+                                                                        <span class="choose-file-input__title">Choose File</span>
+                                                                        <span class="choose-file-input__text">No File Chosen</span>
+                                                                    </div>
+                                                                    <span class="choose-file-form__text"><a href="#">Click here</a> to get updated files</span>
+                                                                </div>
+                                                                <button class="btn btn_color-orange">Update application</button>
+                                                            </div>
+                                                        </dd>
+                                                    </dl>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- main End -->
+
+                <!-- mobile-overlay Start -->
+                <div class="mobile-overlay"></div>
+                <!-- mobile-overlay end -->
+
+            </main>
+            <!-- main end -->
+
+        </div>   
+        <!-- wrapper end -->
+
+        <!-- Plugin scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="../js/swiper-bundle.min.js"></script>
+        <script src="../js/custom-scroll.js"></script>
+        <script src="../js/quill.min.js"></script>
+
+        <!-- Scripts -->
+        <script src="../js/scripts.js"></script>
+
+    </body>
+
+</html>     

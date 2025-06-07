@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GiG</title>
+        <meta content="width=device-width,maximum-scale=1,initial-scale=1,user-scalable=0" name="viewport">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        
+        <link rel="stylesheet" href="../css/style.css" media="all">
+        <link rel="stylesheet" href="../css/swiper-bundle.min.css" media="all">
+        <link rel="stylesheet" href="../css/quill.min.css" media="all">
+        <link href="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.css" rel="stylesheet" />
+
+        <link href="../favicon.ico" rel="shortcut icon">
+    </head>
+    <body>  
+
+        <!-- wrapper Start -->
+        <div class="wrapper">
+
+            <!-- main Start -->
+            <main class="main">
+                
+                <!-- sidebar Start -->
+                <aside class="sidebar">
+                    <span class="close-btn">Close</span>
+                    <div class="logo">
+                        <a href="#">
+                            <img src="../img/src/logo.svg" alt="Gig">
+                        </a>
+                    </div>
+                    <div class="sidebar-scroll">
+                        <div class="sidebar-scroll__viewport">
+                            <nav class="main-nav">
+                                <ul>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/search-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Search</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/bell-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Inbox</span>
+                                                <span class="main-nav__number color-red">12</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/home-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Home</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/settings-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Settings</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <a href="#">
+                                            <span class="main-nav__item-in">
+                                                <img class="main-nav__icon" src="../img/icons/plugin-icon.svg" alt="icon">
+                                                <span class="main-nav__text">Plugins</span>
+                                                <span class="main-nav__number">3</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Analytics</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/analytics.svg" alt="icon">
+                                                        <span class="main-nav__text">Audience</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/projects.svg" alt="icon">
+                                                        <span class="main-nav__text">Projects</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/financials.svg" alt="icon">
+                                                        <span class="main-nav__text">Financials</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Management</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <span class="main-nav__item-in down-arrow">
+                                                    <img class="main-nav__icon" src="../img/icons/users.svg" alt="icon">
+                                                    <span class="main-nav__text">Users</span>
+                                                </span>
+                                                <div class="main-nav__dropdown">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#">
+                                                                <span class="main-nav__dropdown-item">
+                                                                    <img src="../img/icons/user.svg" alt="icon">
+                                                                    <span>Buyers</span>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <span class="main-nav__dropdown-item">
+                                                                    <img src="../img/icons/user.svg" alt="icon">
+                                                                    <span>Freelancers</span>
+                                                                </span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/orders.svg" alt="icon">
+                                                        <span class="main-nav__text">Orders</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/requests.svg" alt="icon">
+                                                        <span class="main-nav__text">Requests</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/transactions.svg" alt="icon">
+                                                        <span class="main-nav__text">Transactions</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/refunds.svg" alt="icon">
+                                                        <span class="main-nav__text">Refunds</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item">
+                                        <span class="main-nav__small-text">Communication</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/announcements.svg" alt="icon">
+                                                        <span class="main-nav__text">Announcements</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/communication.svg" alt="icon">
+                                                        <span class="main-nav__text">User communication</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/content-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Content</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/support-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Support</span>
+                                                        <span class="main-nav__number">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/disputes-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Disputes</span>
+                                                        <span class="main-nav__number">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/reports-icon.svg" alt="icon">
+                                                        <span class="main-nav__text">Reports</span>
+                                                        <span class="main-nav__number color-red">12</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav__item active">
+                                        <span class="main-nav__small-text">System</span>
+                                        <ul class="main-nav__internal-list">
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">General</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Variables</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item active">
+                                                <span class="main-nav__item-in">
+                                                    <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                    <span class="main-nav__text">Freelancer</span>
+                                                </span>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Gig</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Support</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Languages</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                            <li class="main-nav__internal-list-item">
+                                                <a href="#">
+                                                    <span class="main-nav__item-in">
+                                                        <img class="main-nav__icon" src="../img/icons/general.svg" alt="icon">
+                                                        <span class="main-nav__text">Mail server</span>
+                                                    </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="sidebar-scroll__track">
+                            <div class="sidebar-scroll__thumb"></div>
+                        </div>
+                    </div>
+                    <div class="user-panel">
+                        <div class="user-panel__img">
+                            <a href="#">
+                                <img src="../img/src/user-img-sm.jpg" alt="user">
+                            </a>
+                        </div>
+                        <div class="user-panel__description">
+                            <span class="user-panel__name">
+                                <a href="#">Vladislav Topals</a>
+                            </span>
+                            <a href="#" class="user-panel__logout">Logout</a>
+                        </div>
+                    </div>
+                </aside>
+                <!-- Sidebar End -->
+
+                <!-- main Start -->
+                <section class="main-content">
+                    <div class="main-content__top-panel">
+                        <div class="main-content__top-panel-left-col">
+                            <span class="menu-btn">Open</span>
+                            <nav class="bread-crumbs">
+                                <ul>
+                                    <li class="bread-crumbs__item">
+                                        <a href="#">
+                                            <span class="bread-crumbs__item-in">
+                                                <img class="bread-crumbs__icon" src="../img/icons/system.svg" alt="icon">
+                                                <span class="bread-crumbs__text">System</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="bread-crumbs__item active">
+                                        <span class="bread-crumbs__item-in">
+                                            <img class="bread-crumbs__icon" src="../img/icons/general.svg" alt="icon">
+                                            <span class="bread-crumbs__text">Freelancer</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="tabs changed">
+                        <nav class="tabs__nav">
+                            <ul>
+                                <li class="active">Subscription</li>
+                                <li>Skills</li>
+                                <li>Languages</li>
+                                <li>Countries</li>
+                            </ul>
+                        </nav>
+                        <div class="tabs__content">
+                            <div class="tabs__item active">
+                                <div class="system-wrap">
+                                    <form>
+                                        <div class="top-panel top-panel_border-bottom">
+                                            <h2 class="title"><img src="../img/icons/general.svg" alt="icon">Support</h2>
+                                            <div class="btns-col">
+                                                <button class="btn btn_color-transparent" type="submit">Save edits</button>
+                                                <button class="btn" type="submit">Add</button>
+                                            </div>
+                                        </div>
+                                        <div class="gl-form">
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title">Basic</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label>AI prompts/month</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="20">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Active gigs</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="5">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Active consultation</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="2">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Advanced analytics</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="analytics-enable" type="radio" name="analytics" checked>
+                                                                        <label for="analytics-enable">Enable</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="analytics-disable" type="radio" name="analytics">
+                                                                        <label for="analytics-disable">Disable</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Advanced Gig settings</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="settings-enable" type="radio" name="settings" checked>
+                                                                        <label for="settings-enable">Enable</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="settings-disable" type="radio" name="settings">
+                                                                        <label for="settings-disable">Disable</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Gig promotion</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="promotion-enable" type="radio" name="promotion" checked>
+                                                                        <label for="promotion-enable">Enable</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="promotion-disable" type="radio" name="promotion">
+                                                                        <label for="promotion-disable">Disable</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Buyer activity</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="activity-enable" type="radio" name="activity" checked>
+                                                                        <label for="activity-enable">Enable</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="activity-disable" type="radio" name="activity">
+                                                                        <label for="activity-disable">Disable</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Promo codes</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="0">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Coupons</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="0">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Requests for offer</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="0">
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title">Giglancer Premium</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label>AI prompts/month</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="20">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Active gigs</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="5">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Active consultation</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="2">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Advanced analytics</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="analytics-enable-2" type="radio" name="analytics-2" checked>
+                                                                        <label for="analytics-enable-2">Enable</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="analytics-disable-2" type="radio" name="analytics-2">
+                                                                        <label for="analytics-disable-2">Disable</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Advanced Gig settings</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="settings-enable-2" type="radio" name="settings-2" checked>
+                                                                        <label for="settings-enable-2">Enable</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="settings-disable-2" type="radio" name="settings-2">
+                                                                        <label for="settings-disable-2">Disable</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Gig promotion</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="promotion-enable-2" type="radio" name="promotion-2" checked>
+                                                                        <label for="promotion-enable-2">Enable</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="promotion-disable-2" type="radio" name="promotion-2">
+                                                                        <label for="promotion-disable-2">Disable</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Buyer activity</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="activity-enable-2" type="radio" name="activity-2" checked>
+                                                                        <label for="activity-enable-2">Enable</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="activity-disable-2" type="radio" name="activity-2">
+                                                                        <label for="activity-disable-2">Disable</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Promo codes</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="0">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Coupons</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="0">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Requests for offer</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="0">
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="gl-form__item">
+                                                <h3 class="gl-form__title">Giglancer Premium</h3>
+                                                <ul class="gl-form__list">
+                                                    <li>
+                                                        <label>AI prompts/month</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="20">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Active gigs</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="5">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Active consultation</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="2">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Advanced analytics</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="analytics-enable-3" type="radio" name="analytics-3" checked>
+                                                                        <label for="analytics-enable-3">Enable</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="analytics-disable-3" type="radio" name="analytics-3">
+                                                                        <label for="analytics-disable-3">Disable</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Advanced Gig settings</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="settings-enable-3" type="radio" name="settings-3" checked>
+                                                                        <label for="settings-enable-3">Enable</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="settings-disable-3" type="radio" name="settings-3">
+                                                                        <label for="settings-disable-3">Disable</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Gig promotion</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="promotion-enable-3" type="radio" name="promotion-3" checked>
+                                                                        <label for="promotion-enable-3">Enable</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="promotion-disable-3" type="radio" name="promotion-3">
+                                                                        <label for="promotion-disable-3">Disable</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Buyer activity</label>
+                                                        <div class="gl-form__field">
+                                                            <ul class="radio-list">
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="activity-enable-3" type="radio" name="activity-3" checked>
+                                                                        <label for="activity-enable-3">Enable</label>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="radio">
+                                                                        <input id="activity-disable-3" type="radio" name="activity-3">
+                                                                        <label for="activity-disable-3">Disable</label>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Promo codes</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="30">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Coupons</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="25">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <label>Requests for offer</label>
+                                                        <div class="gl-form__field">
+                                                            <input type="text" value="20">
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tabs__item">
+                                <div class="system-wrap">
+                                    <div class="top-panel">
+                                        <h2 class="title"><img src="../img/icons/general.svg" alt="icon">Support</h2>
+                                        <div class="btns-col">
+                                            <button class="btn btn_color-transparent" type="submit">Cancel</button>
+                                            <button class="btn" type="submit">Add</button>
+                                        </div>
+                                    </div>
+                                    <div class="table-settings-panel">
+                                        <div class="table-settings-panel__col">
+                                            <span class="table-settings-panel__title">
+                                                <span>Skills</span>
+                                            </span>
+                                        </div>
+                                        <div class="table-settings-panel__col">
+                                            <div class="sort">
+                                                <span class="btn btn_color-transparent">
+                                                    <img src="../img/icons/arrows.svg" alt="icon">
+                                                </span>
+                                                <div class="sort__dropdown">
+                                                    <ul class="sort__list">
+                                                        <li>
+                                                            <span>Item 1</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 2</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 3</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 4</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 5</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Registration date</span>
+                                                            <div class="sort__dropdown-sub">
+                                                                <ul>
+                                                                    <li>
+                                                                        <span>Ascending</span>
+                                                                        <img src="../img/icons/sort-top-arrow.svg" alt="icon">
+                                                                    </li>
+                                                                    <li>
+                                                                        <span>Descending</span>
+                                                                        <img src="../img/icons/sort-down-arrow.svg" alt="icon">
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 6</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 7</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="filter">
+                                                <span class="btn btn_color-transparent">
+                                                    <img src="../img/icons/lines.svg" alt="icon">
+                                                </span>
+                                                <div class="filter__dropdown">
+                                                    <ul class="filter__list">
+                                                        <li>
+                                                            <input id="filter-documents" type="checkbox" name="filter">
+                                                            <label for="filter-documents">Documents</label>
+                                                        </li>
+                                                        <li>
+                                                            <input id="filter-registration" type="checkbox" name="filter">
+                                                            <label for="filter-registration">Registration date</label>
+                                                        </li>
+                                                        <li>
+                                                            <input id="filter-status" type="checkbox" name="filter">
+                                                            <label for="filter-status">Status</label>
+                                                        </li>
+                                                        <li>
+                                                            <input id="filter-date" type="checkbox" name="filter">
+                                                            <label for="filter-date">Date</label>
+                                                        </li>
+                                                    </ul>
+                                                    <span class="filter__clear">Clear</span>
+                                                </div>
+                                            </div>
+                                            <div class="search-form">
+                                                <form>
+                                                    <input type="text" placeholder="Search">
+                                                    <button type="submit" class="search-form__btn">Поиск</button>
+                                                </form>
+                                            </div>
+                                            <a href="#" class="btn btn_color-transparent"><img src="../img/icons/export-i.svg" alt="icon">Export csv</a>
+                                        </div>
+                                    </div>
+                                    <div class="custom-scroll">
+                                        <div class="custom-scroll__viewport">
+                                            <div class="custom-scroll__content">
+                                                <table class="table table_changed" style="min-width: 600px;">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>ID</th>
+                                                            <th>Title<img src="../img/icons/pen.svg" alt="icon"></th>
+                                                            <th class="text-center">Actions</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">01</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Logo Design</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">02</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Brand Style Guides</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">03</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Business Cards & Stationery</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">04</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Logo Design</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">05</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Brand Style Guides</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">06</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Business Cards & Stationery</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">07</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Logo Design</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">08</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Brand Style Guides</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">09</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Business Cards & Stationery</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">10</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Logo Design</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="custom-scroll__track">
+                                            <div class="custom-scroll__thumb"></div>
+                                        </div>
+                                    </div>
+                                    <div class="page-nav">
+                                        <a href="#" class="btn btn_color-transparent disabled">Previous</a>
+                                        <span class="page-nav__number">Page <span>1</span> of <span>10</span></span>
+                                        <a href="#" class="btn btn_color-transparent">Next</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs__item">
+                                <div class="system-wrap">
+                                    <div class="top-panel">
+                                        <h2 class="title"><img src="../img/icons/general.svg" alt="icon">Support</h2>
+                                        <div class="btns-col">
+                                            <button class="btn btn_color-transparent" type="submit">Cancel</button>
+                                            <button class="btn" type="submit">Add</button>
+                                        </div>
+                                    </div>
+                                    <div class="table-settings-panel">
+                                        <div class="table-settings-panel__col">
+                                            <span class="table-settings-panel__title">
+                                                <span>Languages</span>
+                                            </span>
+                                        </div>
+                                        <div class="table-settings-panel__col">
+                                            <div class="sort">
+                                                <span class="btn btn_color-transparent">
+                                                    <img src="../img/icons/arrows.svg" alt="icon">
+                                                </span>
+                                                <div class="sort__dropdown">
+                                                    <ul class="sort__list">
+                                                        <li>
+                                                            <span>Item 1</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 2</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 3</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 4</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 5</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Registration date</span>
+                                                            <div class="sort__dropdown-sub">
+                                                                <ul>
+                                                                    <li>
+                                                                        <span>Ascending</span>
+                                                                        <img src="../img/icons/sort-top-arrow.svg" alt="icon">
+                                                                    </li>
+                                                                    <li>
+                                                                        <span>Descending</span>
+                                                                        <img src="../img/icons/sort-down-arrow.svg" alt="icon">
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 6</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 7</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="filter">
+                                                <span class="btn btn_color-transparent">
+                                                    <img src="../img/icons/lines.svg" alt="icon">
+                                                </span>
+                                                <div class="filter__dropdown">
+                                                    <ul class="filter__list">
+                                                        <li>
+                                                            <input id="filter-documents" type="checkbox" name="filter">
+                                                            <label for="filter-documents">Documents</label>
+                                                        </li>
+                                                        <li>
+                                                            <input id="filter-registration" type="checkbox" name="filter">
+                                                            <label for="filter-registration">Registration date</label>
+                                                        </li>
+                                                        <li>
+                                                            <input id="filter-status" type="checkbox" name="filter">
+                                                            <label for="filter-status">Status</label>
+                                                        </li>
+                                                        <li>
+                                                            <input id="filter-date" type="checkbox" name="filter">
+                                                            <label for="filter-date">Date</label>
+                                                        </li>
+                                                    </ul>
+                                                    <span class="filter__clear">Clear</span>
+                                                </div>
+                                            </div>
+                                            <div class="search-form">
+                                                <form>
+                                                    <input type="text" placeholder="Search">
+                                                    <button type="submit" class="search-form__btn">Поиск</button>
+                                                </form>
+                                            </div>
+                                            <a href="#" class="btn btn_color-transparent"><img src="../img/icons/export-i.svg" alt="icon">Export csv</a>
+                                        </div>
+                                    </div>
+                                    <div class="custom-scroll">
+                                        <div class="custom-scroll__viewport">
+                                            <div class="custom-scroll__content">
+                                                <table class="table table_changed" style="min-width: 600px;">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>ID</th>
+                                                            <th>Title<img src="../img/icons/pen.svg" alt="icon"></th>
+                                                            <th class="text-center">Actions</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">01</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Logo Design</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">02</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Brand Style Guides</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">03</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Business Cards & Stationery</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">04</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Logo Design</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">05</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Brand Style Guides</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">06</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Business Cards & Stationery</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">07</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Logo Design</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">08</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Brand Style Guides</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">09</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Business Cards & Stationery</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">10</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Logo Design</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="custom-scroll__track">
+                                            <div class="custom-scroll__thumb"></div>
+                                        </div>
+                                    </div>
+                                    <div class="page-nav">
+                                        <a href="#" class="btn btn_color-transparent disabled">Previous</a>
+                                        <span class="page-nav__number">Page <span>1</span> of <span>10</span></span>
+                                        <a href="#" class="btn btn_color-transparent">Next</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tabs__item">
+                                <div class="system-wrap">
+                                    <div class="top-panel">
+                                        <h2 class="title"><img src="../img/icons/general.svg" alt="icon">Support</h2>
+                                        <div class="btns-col">
+                                            <button class="btn btn_color-transparent" type="submit">Cancel</button>
+                                            <button class="btn" type="submit">Add</button>
+                                        </div>
+                                    </div>
+                                    <div class="table-settings-panel">
+                                        <div class="table-settings-panel__col">
+                                            <span class="table-settings-panel__title">
+                                                <span>Countries</span>
+                                            </span>
+                                        </div>
+                                        <div class="table-settings-panel__col">
+                                            <div class="sort">
+                                                <span class="btn btn_color-transparent">
+                                                    <img src="../img/icons/arrows.svg" alt="icon">
+                                                </span>
+                                                <div class="sort__dropdown">
+                                                    <ul class="sort__list">
+                                                        <li>
+                                                            <span>Item 1</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 2</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 3</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 4</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 5</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Registration date</span>
+                                                            <div class="sort__dropdown-sub">
+                                                                <ul>
+                                                                    <li>
+                                                                        <span>Ascending</span>
+                                                                        <img src="../img/icons/sort-top-arrow.svg" alt="icon">
+                                                                    </li>
+                                                                    <li>
+                                                                        <span>Descending</span>
+                                                                        <img src="../img/icons/sort-down-arrow.svg" alt="icon">
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 6</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Item 7</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="filter">
+                                                <span class="btn btn_color-transparent">
+                                                    <img src="../img/icons/lines.svg" alt="icon">
+                                                </span>
+                                                <div class="filter__dropdown">
+                                                    <ul class="filter__list">
+                                                        <li>
+                                                            <input id="filter-documents" type="checkbox" name="filter">
+                                                            <label for="filter-documents">Documents</label>
+                                                        </li>
+                                                        <li>
+                                                            <input id="filter-registration" type="checkbox" name="filter">
+                                                            <label for="filter-registration">Registration date</label>
+                                                        </li>
+                                                        <li>
+                                                            <input id="filter-status" type="checkbox" name="filter">
+                                                            <label for="filter-status">Status</label>
+                                                        </li>
+                                                        <li>
+                                                            <input id="filter-date" type="checkbox" name="filter">
+                                                            <label for="filter-date">Date</label>
+                                                        </li>
+                                                    </ul>
+                                                    <span class="filter__clear">Clear</span>
+                                                </div>
+                                            </div>
+                                            <div class="search-form">
+                                                <form>
+                                                    <input type="text" placeholder="Search">
+                                                    <button type="submit" class="search-form__btn">Поиск</button>
+                                                </form>
+                                            </div>
+                                            <a href="#" class="btn btn_color-transparent"><img src="../img/icons/export-i.svg" alt="icon">Export csv</a>
+                                        </div>
+                                    </div>
+                                    <div class="custom-scroll">
+                                        <div class="custom-scroll__viewport">
+                                            <div class="custom-scroll__content">
+                                                <table class="table table_changed" style="min-width: 600px;">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>ID</th>
+                                                            <th>Title<img src="../img/icons/pen.svg" alt="icon"></th>
+                                                            <th class="text-center">Actions</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">01</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Logo Design</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">02</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Brand Style Guides</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">03</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Business Cards & Stationery</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">04</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Logo Design</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">05</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Brand Style Guides</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">06</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Business Cards & Stationery</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">07</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Logo Design</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">08</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Brand Style Guides</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">09</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Business Cards & Stationery</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                <span class="table__id">10</span>
+                                                            </td>
+                                                            <td>
+                                                                <span class="table__title">Logo Design</span>
+                                                            </td>
+                                                            <td class="text-center">
+                                                                <span class="table__delete">Удалить</span>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="custom-scroll__track">
+                                            <div class="custom-scroll__thumb"></div>
+                                        </div>
+                                    </div>
+                                    <div class="page-nav">
+                                        <a href="#" class="btn btn_color-transparent disabled">Previous</a>
+                                        <span class="page-nav__number">Page <span>1</span> of <span>10</span></span>
+                                        <a href="#" class="btn btn_color-transparent">Next</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- main End -->
+
+                <!-- mobile-overlay Start -->
+                <div class="mobile-overlay"></div>
+                <!-- mobile-overlay end -->
+
+            </main>
+            <!-- main end -->
+
+        </div>   
+        <!-- wrapper end -->
+
+        <!-- Plugin scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/air-datepicker@3.3.5/air-datepicker.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="../js/swiper-bundle.min.js"></script>
+        <script src="../js/custom-scroll.js"></script>
+        <script src="../js/quill.min.js"></script>
+
+        <!-- Scripts -->
+        <script src="../js/scripts.js"></script>
+
+    </body>
+
+</html>     
